@@ -49,4 +49,24 @@ table {
   width: 100%;
 }
 
+/* Scroll behavior */
+/* ocultar el scrollbar vertical */
+.scroll::-webkit-scrollbar {
+  width: 0;
+  height: 8px;
+}
+.scroll::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}
+/* ocultar scrollbar vertical y aún así permitir el scroll */
+table {
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* ocultar el scrollbar en IE y Edge */
+  scrollbar-width: none; /* ocultar el scrollbar en Firefox */
+}
+table::-webkit-scrollbar {
+  display: none; /* ocultar el scrollbar en Chrome y Safari */
+}
+
+/* TODO */
 /* Adaptar a tamaño mobile */
