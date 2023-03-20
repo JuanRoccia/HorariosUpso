@@ -70,3 +70,8 @@ table::-webkit-scrollbar {
 
 /* TODO */
 /* Adaptar a tamaño mobile */
+
+.navegador {
+  color: #ccc;
+  background-color: #1a1b1e;
+}
