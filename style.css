@@ -68,10 +68,113 @@ table::-webkit-scrollbar {
   display: none; /* ocultar el scrollbar en Chrome y Safari */
 }
 
-/* TODO */
-/* Adaptar a tamaño mobile */
-
-.navegador {
+/* Barra de navegación */
+.navbar {
   color: #ccc;
   background-color: #1a1b1e;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em;
+}
+.navbar a {
+  text-decoration: none;
+  color: #ccc;
+}
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-left {
+  display: flex;
+}
+
+.navbar-right {
+  align-items: center;
+}
+
+.navbar-right ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right li {
+  margin-left: 5em;
+}
+
+.navbar-left img {
+  max-width: 100%;
+}
+
+.navbar-right li a:hover {
+  text-decoration: underline;
+}
+
+/* Centrar y separar enlaces de la barra de navegación */
+.navbar-right ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right li {
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+}
+
+/* Diseño responsivo de la tabla */
+.table-container {
+  overflow-x: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+  .navbar-content {
+    flex-direction: column;
+  }
+
+  .navbar-left {
+    margin-bottom: 1em;
+  }
+
+  .navbar-right ul {
+    flex-direction: column;
+  }
+
+  .navbar-right li {
+    margin-left: 0;
+    margin-bottom: 1em;
+  }
+
+  .titulo {
+    font-size: 1.2rem;
+  }
+
+  th, td {
+    font-size: 12px;
+  }
+
+  table {
+    min-width: 700px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .titulo {
+    font-size: 1.5rem;
+  }
+
+  th, td {
+    font-size: 13px;
+  }
+
+  table {
+    min-width: 950px;
+  }
 }

@@ -1,96 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Horario de Clases</title>
-	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de Clases</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="https://www.upso.edu.ar/wp-content/themes/upso2/images/favicon.ico">
 </head>
 <body class="scroll">
-	<nav class="navegador">
-		<header>Lorem</header>
-		<ul>
-			<li>lorem ipsuma</li>
-			<li>lorem ipsuma</li>
-			<li>lorem ipsuma</li>
-		</ul>
-	</nav>
-	<!-- ENCABEZADO -->
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="navbar-left">
+                <a href="https://www.upso.edu.ar/" target="_blank">
+                    <img width="50%" src="https://www.upso.edu.ar/wp-content/themes/upso2/images/header/logo-UPSO.png" alt="logo-upso">
+                </a>
+            </div>
+            <header>
+                <h1>Tecnicatura Universitaria en Tecnologías de Programación</h1>
+            </header>
+        </div>
+        <div class="navbar-right">
+            <ul>
+                <li><a target="_blank" href="https://www.upso.edu.ar/tecnicatura-universitaria-en-tecnologias-de-programacion/">Modalidad presencial</a></li>
+                <li><a target="_blank" href="https://www.upso.edu.ar/tecnicatura-universitaria-en-tecnologias-de-programacion-modalidad-a-distancia/">Modalidad a distancia</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ENCABEZADO DE TABLA -->
     <h1 class="titulo">Horario de Clases</h1>
 	<!-- COMIENZA TABLA DE HORARIOS -->
-	<table id="miTabla">
-		<thead>
-			<tr>
-				<th>Materia</th>
-				<th>Lunes</th>
-				<th>Martes</th>
-				<th>Miércoles</th>
-				<th>Jueves</th>
-				<th>Viernes</th>
-				<th>Sábado</th>
-				<th>Profesores</th>
-				<th>Auxiliares</th>
-				<th>Observaciones</th>
-				<th>Clases Virtuales</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-        <td><a title="Materia" rel="noopener" href="https://campusvirtual.upso.edu.ar/course/view.php?id=5343" target="_blank">FUNDAMENTOS DEL DISEÑO WEB [373] - A</a></td>
-				<td>18:00 a 22:00 (TyP)</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-        <td><a title="Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=3615&course=5343" target="_blank">BERGER, CARLOS ENRIQUE</a></td>
-				<td></td>
-				<td>Teoría y práctica: Clases sincrónicas semanales.</td>
-				<td style="text-align: center;"><a title="Clases por Zoom" href="https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=356236" target="_blank">Zoom</a></td>
-			</tr>
-			<tr>
-				<td><a title="Materia" rel="noopener" href="https://campusvirtual.upso.edu.ar/course/view.php?id=5370" target="_blank">PROGRAMACIÓN C#/.NET [512] - A</a></td>
-				<td></td>
-				<td>18:00 a 22:00 (T)</td>
-				<td></td>
-				<td></td>
-				<td>18:00 a 20:00 (P)</td>
-				<td></td>
-				<td><a title="Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=10098&course=5370" target="_blank">DIAZ, MARCELO GUILLERMO</a></td>
-				<td><a title="Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=9350&course=5370" target="_blank">DESAGES, JUAN FERNANDO</td>
-				<td>Teoría y Práctica: Clases sincrónicas semanales. Práctica: Por excepción, clase 17/3 serás de 16 a 18hs.</td>
-				<td style="text-align: center;"><a title="Clases por Zoom" href="https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=355999" target="_blank">Zoom</a></td>
-			</tr>
-			<tr>
-				<td><a title="Materia" rel="noopener" href="https://campusvirtual.upso.edu.ar/course/view.php?id=5680" target="_blank">REDES Y COMUNICACIONES [57] - A</a></td>
-				<td></td>
-				<td></td>
-				<td>18:00 a 22:00 (TyP)</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td><a title="Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=1708&course=5680" target="_blank">COCCIA CARBALLIDO, MARIANO JOSE</a></td>
-				<td></td>
-				<td></td>
-				<!-- Aún no tiene zoom -->
-				<td style="text-align: center;"><a title="Aún no tiene Zoom" href="" target="_blank">Zoom</a></td>
-			</tr>
-			<tr>
-        <td><a title="Materia" rel="noopener" href="https://campusvirtual.upso.edu.ar/course/view.php?id=5388" target="_blank">TALLER: INGLÉS COMERCIAL [63] - A</a></td>
-				<td></td>
-				<td></td>
-				<td>18:00 a 21:00 (T)</td>
-				<td>18:00 a 21:00 (P)</td>
-				<td></td>
-        <td></td>
-        <td><a title="Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=292&course=5388" target="_blank">LLITERAS, JUAN CARLOS</a></td>
-        <td><a title="Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=82&course=5388" target="_blank">BARTH, ANDREA PAULINA</a></td>
-				<td>Teoría y práctica: Clases sincrónicas semanales.</td>
-				<td style="text-align: center;"><a title="Clases por Zoom" href="https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=356319" target="_blank">Zoom</a></td>
-			</tr>
-		</tbody>
-	</table>
+	<div class="table-container">
+		<table id="miTabla">
+			<thead>
+				<tr>
+					<th>Materia</th>
+					<th>Lunes</th>
+					<th>Martes</th>
+					<th>Miércoles</th>
+					<th>Jueves</th>
+					<th>Viernes</th>
+					<th>Sábado</th>
+					<th>Profesores</th>
+					<th>Auxiliares</th>
+					<th>Observaciones</th>
+					<th>Clases Virtuales</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+			<td><a title="Materia" rel="noopener" href="https://campusvirtual.upso.edu.ar/course/view.php?id=5343" target="_blank">FUNDAMENTOS DEL DISEÑO WEB [373] - A</a></td>
+					<td>18:00 a 22:00 (TyP)</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+			<td><a title="Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=3615&course=5343" target="_blank">BERGER, CARLOS ENRIQUE</a></td>
+					<td></td>
+					<td>Teoría y práctica: Clases sincrónicas semanales.</td>
+					<td style="text-align: center;"><a title="Clases por Zoom" href="https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=356236" target="_blank">Zoom</a></td>
+				</tr>
+				<tr>
+					<td><a title="Materia" rel="noopener" href="https://campusvirtual.upso.edu.ar/course/view.php?id=5370" target="_blank">PROGRAMACIÓN C#/.NET [512] - A</a></td>
+					<td></td>
+					<td>18:00 a 22:00 (T)</td>
+					<td></td>
+					<td></td>
+					<td>18:00 a 20:00 (P)</td>
+					<td></td>
+					<td><a title="Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=10098&course=5370" target="_blank">DIAZ, MARCELO GUILLERMO</a></td>
+					<td><a title="Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=9350&course=5370" target="_blank">DESAGES, JUAN FERNANDO</td>
+					<td>Teoría y Práctica: Clases sincrónicas semanales. Práctica: Por excepción, clase 17/3 serás de 16 a 18hs.</td>
+					<td style="text-align: center;"><a title="Clases por Zoom" href="https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=355999" target="_blank">Zoom</a></td>
+				</tr>
+				<tr>
+					<td><a title="Materia" rel="noopener" href="https://campusvirtual.upso.edu.ar/course/view.php?id=5680" target="_blank">REDES Y COMUNICACIONES [57] - A</a></td>
+					<td></td>
+					<td></td>
+					<td>18:00 a 22:00 (TyP)</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td><a title="Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=1708&course=5680" target="_blank">COCCIA CARBALLIDO, MARIANO JOSE</a></td>
+					<td></td>
+					<td></td>
+					<!-- Aún no tiene zoom -->
+					<td style="text-align: center;"><a title="Aún no tiene Zoom" href="" target="_blank">Zoom</a></td>
+				</tr>
+				<tr>
+			<td><a title="Materia" rel="noopener" href="https://campusvirtual.upso.edu.ar/course/view.php?id=5388" target="_blank">TALLER: INGLÉS COMERCIAL [63] - A</a></td>
+					<td></td>
+					<td></td>
+					<td>18:00 a 21:00 (T)</td>
+					<td>18:00 a 21:00 (P)</td>
+					<td></td>
+			<td></td>
+			<td><a title="Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=292&course=5388" target="_blank">LLITERAS, JUAN CARLOS</a></td>
+			<td><a title="Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=82&course=5388" target="_blank">BARTH, ANDREA PAULINA</a></td>
+					<td>Teoría y práctica: Clases sincrónicas semanales.</td>
+					<td style="text-align: center;"><a title="Clases por Zoom" href="https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=356319" target="_blank">Zoom</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 	<!-- FINALIZA TABLA DE HORARIOS -->
 </body>
 </html>
