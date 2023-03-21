@@ -92,7 +92,7 @@ table::-webkit-scrollbar {
 }
 
 .navbar-right {
-  align-items: center;
+  align-items: right;
 }
 
 .navbar-right ul {
@@ -114,10 +114,10 @@ table::-webkit-scrollbar {
   text-decoration: underline;
 }
 
-/* Centrar y separar enlaces de la barra de navegación */
+/* Mover y separar enlaces de la barra de navegación */
 .navbar-right ul {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   list-style-type: none;
   margin: 0;
   padding: 0;
