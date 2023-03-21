@@ -1,0 +1,28 @@
+Mover modalidades hacia la derecha ✔
+Agregar funcionalidad: Hoy es [el_dia_nombre] [el_dia_número],Hora en vivo y Calendario. ✔
+
+Errores detectados en validator.w3.org:
+
+Error: Bad value 50% for attribute width on element img: Expected a digit but saw % instead.
+
+From line 18, column 21; to line 18, column 135
+
+          <img width="50%" src="https://www.upso.edu.ar/wp-content/themes/upso2/images/header/logo-UPSO.png" alt="logo-upso">↩     
+
+Error: End tag td seen, but there were open elements.
+
+From line 75, column 156; to line 75, column 160
+
+N FERNANDO</td>↩					
+
+Error: Unclosed element a.
+
+From line 75, column 10; to line 75, column 133
+
+↩					<td><a title="Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=9350&course=5370" target="_blank">DESAGE
+
+Warning: Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).
+
+From line 22, column 17; to line 22, column 20
+
+          <h1>Tecnic
