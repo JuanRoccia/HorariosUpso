@@ -1,5 +1,6 @@
 Mover modalidades hacia la derecha ✔
 Agregar funcionalidad: Hoy es [el_dia_nombre] [el_dia_número],Hora en vivo y Calendario. ✔
+Editar las etiquetas title de la info en la tabla ✔
 
 Errores detectados en validator.w3.org:
 
