@@ -1,29 +1,48 @@
-Mover modalidades hacia la derecha ✔
-Agregar funcionalidad: Hoy es [el_dia_nombre] [el_dia_número],Hora en vivo y Calendario. ✔
-Editar las etiquetas title de la info en la tabla ✔
+- Mover modalidades hacia la derecha ✔
+- Agregar funcionalidad: Hoy es [el_dia_nombre] [el_dia_número],Hora en vivo y Calendario. ✔
+- Editar las etiquetas title de la info en la tabla ✔
 
-Errores detectados en validator.w3.org:
+- Actualizar materia REDES Y COMUNICACIONES (horarios y link zoom)
 
-Error: Bad value 50% for attribute width on element img: Expected a digit but saw % instead.
+- Horarios Ingles (jueves): 	COMISIÓN "A": de 18:00 - 19:30 horas
+                		 		COMISIÓN "B": de 19:30 - 21:00 horas
 
-From line 18, column 21; to line 18, column 135
+- Actualizar Observaciones
 
-          <img width="50%" src="https://www.upso.edu.ar/wp-content/themes/upso2/images/header/logo-UPSO.png" alt="logo-upso">↩     
+- Estructura del HTML: [header-nav-table-section-aside-footer] (respetar las buenas prácticas)
 
-Error: End tag td seen, but there were open elements.
+- Futuras imlplementaciones: Seccion de clases grabadas (ya sea para descargar como para ver en linea)
 
-From line 75, column 156; to line 75, column 160
+- Para agregar al README: Estes un proyecto inicial llevado a cabo por los alumnos de la TUTP UPSO, conciste
+    inicialmente en una tabla de horarios personalizada y adaptada para dichos alumnos, pero cuenta con el 
+    potencial para convertirse en un proyecto escalable, mucho mas complejo a medida que se vayan incorpornado 
+    personas, ideas y habilidades, Lo que llevaria a desarrollar una App Web mucho mas interesante y que podría 
+    resultar de utilidad para la  misma UPSO, como plataforma para cargar sus propios videos de clases virtuales 
+    y tablas horarias para las materias que asi lo requierasn. Esto daría lugar a una organizacion mucho mas 
+    efectiva y una accesibilidad para los alumnos que estudien a distancia muchas mas apropiada.
 
-N FERNANDO</td>↩					
+- Errores detectados en validator.w3.org:
 
-Error: Unclosed element a.
+    Error: Bad value 50% for attribute width on element img: Expected a digit but saw % instead.
 
-From line 75, column 10; to line 75, column 133
+    From line 18, column 21; to line 18, column 135
 
-↩					<td><a title="Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=9350&course=5370" target="_blank">DESAGE
+            <img width="50%" src="https://www.upso.edu.ar/wp-content/themes/upso2/images/header/logo-UPSO.png" alt="logo-upso">↩     
 
-Warning: Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).
+    Error: End tag td seen, but there were open elements.
 
-From line 22, column 17; to line 22, column 20
+    From line 75, column 156; to line 75, column 160
 
-          <h1>Tecnic
+    N FERNANDO</td>↩					
+
+    Error: Unclosed element a.
+
+    From line 75, column 10; to line 75, column 133
+
+    ↩					<td><a title="Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=9350&course=5370" target="_blank">DESAGE
+
+    Warning: Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).
+
+    From line 22, column 17; to line 22, column 20
+
+            <h1>Tecnic
