@@ -1,25 +1,13 @@
-- Mover modalidades hacia la derecha ✔
-- Agregar funcionalidad: Hoy es [el_dia_nombre] [el_dia_número],Hora en vivo y Calendario. ✔
-- Editar las etiquetas title de la info en la tabla ✔
 
-- Actualizar materia REDES Y COMUNICACIONES (horarios y link zoom)
-
-- Horarios Ingles (jueves): 	COMISIÓN "A": de 18:00 - 19:30 horas
-                		 		COMISIÓN "B": de 19:30 - 21:00 horas
-
-- Actualizar Observaciones
+- Optimizar funcionalidad de fecha y hora : Hoy es [el_dia_nombre] [el_dia_número],Hora en vivo y Calendario.
 
 - Estructura del HTML: [header-nav-table-section-aside-footer] (respetar las buenas prácticas)
 
-- Futuras imlplementaciones: Seccion de clases grabadas (ya sea para descargar como para ver en linea)
+- Implementar una lista TODO con materias, trabajos/parciales/cuestionarios y fecha de cada uno ✔️
 
-- Para agregar al README: Estes un proyecto inicial llevado a cabo por los alumnos de la TUTP UPSO, conciste
-    inicialmente en una tabla de horarios personalizada y adaptada para dichos alumnos, pero cuenta con el 
-    potencial para convertirse en un proyecto escalable, mucho mas complejo a medida que se vayan incorpornado 
-    personas, ideas y habilidades, Lo que llevaria a desarrollar una App Web mucho mas interesante y que podría 
-    resultar de utilidad para la  misma UPSO, como plataforma para cargar sus propios videos de clases virtuales 
-    y tablas horarias para las materias que asi lo requierasn. Esto daría lugar a una organizacion mucho mas 
-    efectiva y una accesibilidad para los alumnos que estudien a distancia muchas mas apropiada.
+- Hover effect en los links de la tabla ✔️
+
+- Futuras imlplementaciones: Seccion de clases grabadas (ya sea para descargar como para ver en linea)
 
 - Errores detectados en validator.w3.org:
 
