@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horario de Clases</title>
+    <title>Diseño Web | Proyecto UPSO | GitHub</title>
     <link rel="stylesheet" href="style.css">
     <!-- FAVICON -->
     <link rel="shortcut icon" href="https://www.upso.edu.ar/wp-content/themes/upso2/images/favicon.ico">
@@ -35,7 +35,11 @@
     </nav>
     <!-- ENCABEZADO DE TABLA -->
 	<header class="tablaHeader">
-		<h1 class="titulo">Tabla de Horarios</h1>
+		<h1 class="titulo">Tabla de Horarios Interactiva 📅</h1>
+		<p>Esta tabla de horarios incluye materias, horarios y profesores, con enlaces a sus respectivas secciones en el 
+			campus virtual. Al hacer clic en una materia, serás dirigido al espacio en línea de la materia en el campus. Los nombres de 
+			los profesores también están vinculados a sus perfiles en el campus para facilitar el contacto. Además, cada materia cuenta 
+			con una columna que contiene enlaces a las clases programadas de Zoom disponibles en la plataforma del campus.</p>
 	</header>
     <!-- <h1 class="titulo">Horario de Clases</h1> -->
 	<!-- COMIENZA TABLA DE HORARIOS -->
@@ -148,7 +152,10 @@
 
 	<!-- ENCABEZADO DE TODO TABLA -->
 	<header class="tablaTodo">
-		<h1 class="titulo">TODO Table</h1>
+		<h1 class="titulo">The ToDo Table 👌</h1>
+		<p>En este caso la tabla también es interactiva, por lanto permite navegar a cada materia y zona de entrega corredpondiente a los 
+			trabajos que se van presentando.
+		</p>
 	</header>
 	<!-- COMIENZA TODO TABLA -->
 	<div class="table-container">
@@ -269,6 +276,22 @@
 					<td></td>
 				</tr>
 				<tr>
+					<!-- REDES y COMUNICACIONES -->
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td><a title="Ver entrega" rel="noopener" target="_blank" href="https://campusvirtual.upso.edu.ar/mod/quiz/view.php?id=356188">Evaluación Binarios</a></td>
+					<td>9 de Abril de 2023, 11:59 PM</td>
+					<td><input type="checkbox"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
 					<!-- INGLES COMERCIAL AMBAS COMISIONES -->
 					<td><a title="Ir a Materia" rel="noopener" href="https://campusvirtual.upso.edu.ar/course/view.php?id=5388" target="_blank">TALLER: INGLÉS COMERCIAL [63] - A</a></td>
 					<td><a title="Ver entrega" rel="noopener" href="https://campusvirtual.upso.edu.ar/mod/forum/view.php?id=354956" target="_blank">Introduce yourself</a></td>
@@ -304,18 +327,50 @@
 		</table>
 	</div>
 	<!-- FINALIZA TABLA TODO -->
+	<br>
+	<br>
 
-	<!-- SECTION IZQUIERDA -->
-	<section>
-		<!-- <h1>Esta es la secicón</h1> -->
+	<!--------- The To Do List Section y Aside  --------->
+
+	<!-- SECTION -->
+	<section class="todoList-container">
+
+		<!-- IZQUIERDA -->
+		<article class="left">
+			<div id="myDIV" class="header">
+				<h2>🐒 My To Do List</h2>
+				<input type="text" id="myInput" placeholder="Title...">
+				<span onclick="newElement()" class="addBtn">Add</span>
+			</div>
+			
+			<ul id="myUL">
+			<li>Hacer el CV de inglés</li>
+			<li class="checked">Evaluación Binarios</li>
+			<li>Estudiar C#</li>
+			<li class="checked">Terminar página</li>
+			<li>Leer "Un enfoque descendente"</li>
+			<li>Entrenar modelo local</li>
+			</ul>
+		</article>
+		<!-- FINALIZA IZQUIERDA -->
+
+		<!-- ASIDE DERECHA -->
+		<aside class="right">
+			<div class="header"><h2>Versión del proyecto en <a href="https://replit.com/~"><span style="color: #F26207;">Replit</span></a></h2></div>
+			
+			<iframe height="350px" width="100%" allowfullscreen title="Versión en replit" src="https://proyectodesarrollowebupso.ups0.repl.co/" frameborder="1"></iframe>
+			<br>
+			<br>
+			<span>👉 </span><a class="link-style" target="_blank" href="https://replit.com/join/yricjojsmi-ups0">Invitación al proyecto </a>
+			
+		</aside>
+		<!-- FINALIZA EL ASIDE -->
+
+		<div class="clear"></div>
+		<br>
+		<br>
 	</section>
 	<!-- FINALIZA LA SECTION -->
-
-	<!-- ASIDE DERECHA -->
-	<aside>
-		<!-- <h1>Este es el aside</h1> -->
-	</aside>
-	<!-- FINALIZA EL ASIDE -->
 
 	<!-- FOOTER -->
 	<footer>
@@ -324,7 +379,7 @@
 		<!-- FECHA DE HOY -->
 		<p id="demo"></p>
 		<hr>
-		<h1>Programación UPSO</h1>
+		<h1>Programación UPSO ✨</h1>
 		<h2>Proyecto de Desarrollo Web</h2>
 		<p>Este es un proyecto base de Desarrollo Web llevado a cabo por los alumnos de la Tecnicatura 
 			Universitaria en Tecnologías de la Programación. Conciste inicialmente en una tabla de horarios 
@@ -358,5 +413,6 @@
 		const d = new Date();
 		document.getElementById("demo").innerHTML = d;
     </script>
+	<script src="script.js"></script>
 </body>
 </html>
