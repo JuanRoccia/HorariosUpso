@@ -1,36 +1,28 @@
 
-- Optimizar funcionalidad de fecha y hora : Hoy es [el_dia_nombre] [el_dia_número],Hora en vivo y Calendario.
+- Horarios Fundamentos Diseño Web, viernes 20:00 a 22:00 (P) y lunes 18:00 a 22:00 (T) ✔️
 
-- Estructura del HTML: [header-nav-table-section-aside-footer] (respetar las buenas prácticas)
+- C# trabajo practico, no entregable
 
-- Implementar una lista TODO con materias, trabajos/parciales/cuestionarios y fecha de cada uno ✔️
+- C# evalucion donde hay que entregar directamete un .exe
 
-- Hover effect en los links de la tabla ✔️
+- Actividad Grupal, Ingles: https://campusvirtual.upso.edu.ar/mod/url/view.php?id=357753 VENCE EL 27 DE ABRIL ✔️
+
+- Cuestionario, Ingles: https://campusvirtual.upso.edu.ar/mod/quiz/view.php?id=357806 VENCE EL 27 DE ABRIL ✔️
+
+- Examen Parcial de Ingles, 18 de Mayo (presencial)
+
+- Agregar un scroll indicator
+
+- Agregar seccion The To Do List ✔️
 
 - Futuras imlplementaciones: Seccion de clases grabadas (ya sea para descargar como para ver en linea)
 
-- Errores detectados en validator.w3.org:
+- Optimizar funcionalidad de fecha y hora : Hoy es [el_dia_nombre] [el_dia_número],Hora en vivo y Calendario.
 
-    Error: Bad value 50% for attribute width on element img: Expected a digit but saw % instead.
+- Definir estructura del HTML, ej: [header-nav-table-section-aside-footer] 
 
-    From line 18, column 21; to line 18, column 135
+- Errores detectados en validator.w3.org y su version para CSS
 
-            <img width="50%" src="https://www.upso.edu.ar/wp-content/themes/upso2/images/header/logo-UPSO.png" alt="logo-upso">↩     
+- Mejorar estructura basica del diseño html y estilos
 
-    Error: End tag td seen, but there were open elements.
-
-    From line 75, column 156; to line 75, column 160
-
-    N FERNANDO</td>↩					
-
-    Error: Unclosed element a.
-
-    From line 75, column 10; to line 75, column 133
-
-    ↩					<td><a title="Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=9350&course=5370" target="_blank">DESAGE
-
-    Warning: Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).
-
-    From line 22, column 17; to line 22, column 20
-
-            <h1>Tecnic
+- Implementar algun framework
