@@ -1,4 +1,8 @@
 
+- Border para el iframe
+
+- Seccion de Videos, coming soon
+
 - Horarios Fundamentos Diseño Web, viernes 20:00 a 22:00 (P) y lunes 18:00 a 22:00 (T) ✔️
  
 - Trabajo Practico 3 FDW, no entregable ✔️

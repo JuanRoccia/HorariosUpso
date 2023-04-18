@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases Grabadas | Proyecto UPSO</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="https://www.upso.edu.ar/wp-content/themes/upso2/images/favicon.ico">
+	<!-- TAILWIND -->
+	<!-- <script src="https://cdn.tailwindcss.com"></script> -->
+	<!-- W3.CSS -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<!-- Font Awesome Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Google Material Design Icons -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- W3.CSS - Pro -->
+	<link rel="stylesheet" href="w3pro.css">
+
+    <style>
+        /* Set height to 100% for body and html to enable the background image to cover the whole page: */
+        body, html {
+            height: 100%
+        }
+
+        .bgimg {
+            /* Background image */
+            background-image: url(forestbridge.jpg);
+            /* Full-screen */
+            height: 100%;
+            /* Center the background image */
+            background-position: center;
+            /* Scale and zoom in the image */
+            background-size: cover;
+            /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+            position: relative;
+            /* Add a white text color to all elements inside the .bgimg container */
+            color: white;
+            /* Add a font */
+            font-family: "Courier New", Courier, monospace;
+            
+            font-family: monospace !important;
+            font-family: 'JetBrains Mono', monospace !important;
+            font-weight: 600;
+
+            /* Set the font-size to 25 pixels */
+            font-size: 25px;
+        }
+
+        /* Position text in the top-left corner */
+        .topleft {
+            position: absolute;
+            top: 0;
+            left: 16px;
+        }
+
+        /* Position text in the bottom-left corner */
+        .bottomleft {
+            position: absolute;
+            bottom: 0;
+            left: 16px;
+        }
+
+        /* Position text in the middle */
+        .middle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        /* Style the <hr> element */
+        hr {
+            margin: auto;
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="navbar-left">
+                <a href="https://www.upso.edu.ar/" target="_blank">
+                    <img width="50%" src="https://www.upso.edu.ar/wp-content/themes/upso2/images/header/logo-UPSO.png" alt="logo-upso">
+                </a>
+            </div>
+			<div class="w3-panel">
+				<h1>Tecnicatura Universitaria en Tecnologías de Programación</h1>
+			</div>
+        </div>
+        <div class="navbar-right">
+            <ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="alumnos.html">Alumnos</a></li>
+                <li><a target="_blank" href="https://www.upso.edu.ar/tecnicatura-universitaria-en-tecnologias-de-programacion/">Modalidad presencial</a></li>
+                <li><a target="_blank" href="https://www.upso.edu.ar/tecnicatura-universitaria-en-tecnologias-de-programacion-modalidad-a-distancia/">Modalidad a distancia</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!----- SECCION DESTINADA AL ALOJAMIENTO DE LOS VIDEOS GRABADOS EN CLASES   -   -
+-    -   TANTO PARA VER EN LINEA COMO PARA DESCARGAR EL ARCHIVO ---------->
+
+
+    <div class="bgimg">
+        <div class="topleft">
+            <p>Lorem.</p>
+        </div>
+        <div class="middle">
+            <h1>COMING SOON</h1>
+            <hr>
+            <!-- Display the countdown timer in an element -->
+            <p id="demo"></p>
+        </div>
+        <div class="bottomleft">
+            <p>Lorem, ipsum.</p>
+        </div>
+    </div>
+    
+    
+
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+        // Get today's date and time
+        var now = new Date().getTime();
+        
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+        
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+        // Display the result in the element with id="demo"
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+        
+        // If the count down is finished, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+        }, 1000);
+    </script>
+</body>
+</html>

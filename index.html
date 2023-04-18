@@ -19,11 +19,13 @@
 	<!-- W3.CSS - Pro -->
 	<link rel="stylesheet" href="w3pro.css">
 </head>
+
 <body class="scroll">
 	<!-- ENCABEZADO DE LA PAGINA -->
 	<!-- <header>
 		<h1>Encabezado de la página</h1>
 	</header> -->
+
     <!-- BARRA DE NAVEGACION -->
     <nav class="navbar">
         <div class="navbar-content">
@@ -34,16 +36,18 @@
             </div>
 			<div class="w3-panel">
 				<h1>Tecnicatura Universitaria en Tecnologías de Programación</h1>
-			</div>   
+			</div>
         </div>
         <div class="navbar-right">
             <ul>
+				<li><a href="clases.html">Clases</a></li>
 				<li><a href="alumnos.html">Alumnos</a></li>
                 <li><a target="_blank" href="https://www.upso.edu.ar/tecnicatura-universitaria-en-tecnologias-de-programacion/">Modalidad presencial</a></li>
                 <li><a target="_blank" href="https://www.upso.edu.ar/tecnicatura-universitaria-en-tecnologias-de-programacion-modalidad-a-distancia/">Modalidad a distancia</a></li>
             </ul>
         </div>
     </nav>
+
     <!-- ENCABEZADO DE TABLA -->
 	<header class="tablaHeader">
 		<div class="w3-panel">
@@ -55,7 +59,7 @@
 			con una columna que contiene enlaces a las clases programadas de Zoom disponibles en la plataforma del campus.
 		</p> -->
 	</header>
-    <!-- <h1 class="titulo">Horario de Clases</h1> -->
+
 	<!-- COMIENZA TABLA DE HORARIOS -->
 	<div class="table-container">
 		<table id="miTabla">
@@ -174,6 +178,7 @@
 			trabajos que se van presentando.
 		</p> -->
 	</header>
+
 	<!-- COMIENZA TODO TABLA -->
 	<div class="table-container">
 		<table id="miTabla">
@@ -272,9 +277,9 @@
 					<td><a title="Ver entrega" rel="noopener" target="_blank" href="https://campusvirtual.upso.edu.ar/mod/quiz/view.php?id=357877">Evaluación Unidad 1</a></td>
 					<td>16 de Abril de 2023, 11:59 PM</td>
 					<td><input type="checkbox" checked></td>
-					<td>Trabajo Práctico 2</td>
+					<td><a title="Ver trabajo" rel="noopener" target="_blank" href="https://campusvirtual.upso.edu.ar/mod/folder/view.php?id=336397">Trabajo Práctico 2</a></td>
 					<td></td>
-					<td></td>
+					<td><input type="checkbox"></td>
 					<td></td>
 					<td></td>
 					<td></td>
@@ -397,6 +402,7 @@
 	<br>
 	<br>
 
+	<!-- Titulo para dividir secciones -->
 	<div class="w3-panel">
 		<h1>Otras Cuestiones</h1>
 	</div>
@@ -406,7 +412,7 @@
 	<!-- SECTION -->
 	<section class="todoList-container">
 
-		<!-- IZQUIERDA -->
+		<!-- ARTICLE IZQUIERDA -->
 		<article class="left">
 			<div id="myDIV" class="header">
 				<h2>🐒 Lista de Cosas</h2>
@@ -424,24 +430,26 @@
 				<li>C# trabajo practico</li>
 			</ul>
 		</article>
-		<!-- FINALIZA IZQUIERDA -->
+		<!-- FINALIZA ARTICLE -->
 
 		<!-- ASIDE DERECHA -->
 		<aside class="right">
 			<div class="header"><h2>Versión del proyecto en <a href="https://replit.com/~"><span style="color: #F26207;">Replit</span></a></h2></div>
 			
-			<iframe height="350px" width="100%" allowfullscreen title="Versión en replit" src="https://proyectodesarrollowebupso.ups0.repl.co/" frameborder="1"></iframe>
+			<iframe style="border: 5px solid #1a1b1e;" height="350px" width="100%" allowfullscreen title="Versión en replit" src="https://proyectodesarrollowebupso.ups0.repl.co/" frameborder="1"></iframe>
 			<br>
 			<br>
 			<span>👉 </span><a class="link-style" target="_blank" href="https://replit.com/join/yricjojsmi-ups0">Invitación al proyecto </a>
 		</aside>
 		<!-- FINALIZA EL ASIDE -->
 
+		<!-- Separador -->
 		<div class="clear"></div>
-		<br>
-		<br>
+		<hr>
+		<!-- <br><br> -->
 	</section>
-	<!-- FINALIZA LA SECTION -->
+	<!-- FINALIZA SECTION -->
+
 
 	<!-- FOOTER -->
 	<footer class="w3-container">
@@ -466,6 +474,7 @@
 	</footer>
 	<!-- FINALIZA EL PIE DE PAGINA -->
 
+	<!-- JavaScript de la fecha y reloj en vivo -->
     <script>
 		// Reloj en vivo
         function actualizarReloj() {
