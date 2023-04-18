@@ -8,12 +8,22 @@
     <link rel="stylesheet" href="style.css">
     <!-- FAVICON -->
     <link rel="shortcut icon" href="https://www.upso.edu.ar/wp-content/themes/upso2/images/favicon.ico">
+	<!-- TAILWIND -->
+	<!-- <script src="https://cdn.tailwindcss.com"></script> -->
+	<!-- W3.CSS -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<!-- Font Awesome Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Google Material Design Icons -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- W3.CSS - Pro -->
+	<link rel="stylesheet" href="w3pro.css">
 </head>
 <body class="scroll">
 	<!-- ENCABEZADO DE LA PAGINA -->
-	<header>
-		<!-- <h1>Encabezado de la página</h1> -->
-	</header>
+	<!-- <header>
+		<h1>Encabezado de la página</h1>
+	</header> -->
     <!-- BARRA DE NAVEGACION -->
     <nav class="navbar">
         <div class="navbar-content">
@@ -22,12 +32,13 @@
                     <img width="50%" src="https://www.upso.edu.ar/wp-content/themes/upso2/images/header/logo-UPSO.png" alt="logo-upso">
                 </a>
             </div>
-            <header>
-                <h1>Tecnicatura Universitaria en Tecnologías de Programación</h1>
-            </header>
+			<div class="w3-panel">
+				<h1>Tecnicatura Universitaria en Tecnologías de Programación</h1>
+			</div>   
         </div>
         <div class="navbar-right">
             <ul>
+				<li><a href="alumnos.html">Alumnos</a></li>
                 <li><a target="_blank" href="https://www.upso.edu.ar/tecnicatura-universitaria-en-tecnologias-de-programacion/">Modalidad presencial</a></li>
                 <li><a target="_blank" href="https://www.upso.edu.ar/tecnicatura-universitaria-en-tecnologias-de-programacion-modalidad-a-distancia/">Modalidad a distancia</a></li>
             </ul>
@@ -35,11 +46,14 @@
     </nav>
     <!-- ENCABEZADO DE TABLA -->
 	<header class="tablaHeader">
-		<h1 class="titulo">Tabla de Horarios Interactiva 📅</h1>
-		<p>Esta tabla de horarios incluye materias, horarios y profesores, con enlaces a sus respectivas secciones en el 
+		<div class="w3-panel">
+			<h1 class="titulo text-3xl font-bold">Tabla de Horarios Interactiva 📅</h1>
+		</div>
+		<!-- <p>Esta tabla de horarios incluye materias, horarios y profesores, con enlaces a sus respectivas secciones en el 
 			campus virtual. Al hacer clic en una materia, serás dirigido al espacio en línea de la materia en el campus. Los nombres de 
 			los profesores también están vinculados a sus perfiles en el campus para facilitar el contacto. Además, cada materia cuenta 
-			con una columna que contiene enlaces a las clases programadas de Zoom disponibles en la plataforma del campus.</p>
+			con una columna que contiene enlaces a las clases programadas de Zoom disponibles en la plataforma del campus.
+		</p> -->
 	</header>
     <!-- <h1 class="titulo">Horario de Clases</h1> -->
 	<!-- COMIENZA TABLA DE HORARIOS -->
@@ -150,12 +164,15 @@
 	</div>
 	<!-- FINALIZA TABLA DE HORARIOS -->
 
+
 	<!-- ENCABEZADO DE TODO TABLA -->
 	<header class="tablaTodo">
-		<h1 class="titulo">Tabla de Cosas para Hacer 👌</h1>
-		<p>En este caso la tabla también es interactiva, por lanto permite navegar a cada materia y zona de entrega corredpondiente a los 
+		<div class="w3-panel">
+			<h1 class="titulo text-3xl font-bold">Tabla de Cosas para Hacer 👌</h1>
+		</div>
+		<!-- <p>En este caso la tabla también es interactiva, por lanto permite navegar a cada materia y zona de entrega corredpondiente a los 
 			trabajos que se van presentando.
-		</p>
+		</p> -->
 	</header>
 	<!-- COMIENZA TODO TABLA -->
 	<div class="table-container">
@@ -194,6 +211,22 @@
 					<td><a title="Ver entrega" rel="noopener" href="https://campusvirtual.upso.edu.ar/mod/folder/view.php?id=334337" target="_blank">Trabajo Práctico 1</a></td>
 					<td>no entregable</td>
 					<td><input type="checkbox" checked></td>
+					<td><a title="Ir al proyecto" rel="noopener" href="https://campusvirtual.upso.edu.ar/course/view.php?id=5343#section-19" target="_blank">Proyecto HTML</a></td>
+					<td>2 de mayo de 2023, 18:30</td>
+					<td><input type="checkbox"></td>
+				</tr>
+				<tr>
+					<!-- FUNDAMENTOS DEL DISEÑO WEB -->
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td><a title="Ver entrega" rel="noopener" href="https://campusvirtual.upso.edu.ar/mod/folder/view.php?id=334345" target="_blank">Trabajo Práctico 2</a></td>
+					<td>no entregable</td>
+					<td><input type="checkbox" checked></td>
 					<td></td>
 					<td></td>
 					<td></td>
@@ -207,7 +240,7 @@
 					<td></td>
 					<td></td>
 					<td></td>
-					<td><a title="Ver entrega" rel="noopener" href="https://campusvirtual.upso.edu.ar/mod/folder/view.php?id=334345" target="_blank">Trabajo Práctico 2</a></td>
+					<td><a title="Ver entrega" rel="noopener" href="https://campusvirtual.upso.edu.ar/mod/folder/view.php?id=334353" target="_blank">Trabajo Práctico 3</a></td>
 					<td>no entregable</td>
 					<td><input type="checkbox" checked></td>
 					<td></td>
@@ -342,12 +375,31 @@
 					<td></td>
 					<td></td>
 				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
 			</tbody>
 		</table>
 	</div>
 	<!-- FINALIZA TABLA TODO -->
 	<br>
 	<br>
+
+	<div class="w3-panel">
+		<h1>Otras Cuestiones</h1>
+	</div>
 
 	<!--------- The To Do List Section y Aside  --------->
 
@@ -363,12 +415,12 @@
 			</div>
 			
 			<ul id="myUL">
-				<li>Comer</li>
+				<li>Proyecto HTML</li>
 				<li class="checked">Write your own CV</li>
-				<li>Tener vida social</li>
+				<li>Salir a correr</li>
 				<li class="checked">Group Work</li>
-				<li>Leer documentacion Dolly 2.0</li>
-				<li>https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm</li>
+				<li>Dolly 2.0, Auto-gpt</li>
+				<li class="checked">Trabajo práctico 3 FDW</li>
 				<li>C# trabajo practico</li>
 			</ul>
 		</article>
@@ -382,7 +434,6 @@
 			<br>
 			<br>
 			<span>👉 </span><a class="link-style" target="_blank" href="https://replit.com/join/yricjojsmi-ups0">Invitación al proyecto </a>
-			
 		</aside>
 		<!-- FINALIZA EL ASIDE -->
 
@@ -393,13 +444,15 @@
 	<!-- FINALIZA LA SECTION -->
 
 	<!-- FOOTER -->
-	<footer>
+	<footer class="w3-container">
 		<!-- RELOJ EN VIVO -->
-		<h1 id="reloj">00:00:00</h1>
-		<!-- FECHA DE HOY -->
-		<p id="demo"></p>
+		<div class="w3-panel">
+			<h1 class="jetbrains-font-semibold" id="reloj">00:00:00</h1>
+			<!-- FECHA DE HOY -->
+			<p id="demo"></p>
+		</div>
 		<hr>
-		<h1>Programación UPSO ✨</h1>
+		<h1 class="jetbrains-font-semibold">Programación UPSO ✨</h1>
 		<h2>Proyecto de Desarrollo Web</h2>
 		<p>Este es un proyecto base de Desarrollo Web llevado a cabo por los alumnos de la Tecnicatura 
 			Universitaria en Tecnologías de la Programación. Conciste inicialmente en una tabla de horarios 

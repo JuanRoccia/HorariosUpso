@@ -1,5 +1,9 @@
 
 - Horarios Fundamentos Diseño Web, viernes 20:00 a 22:00 (P) y lunes 18:00 a 22:00 (T) ✔️
+ 
+- Trabajo Practico 3 FDW, no entregable ✔️
+
+- Parcial Redes y Comunicaciones: Modalidad Virtual 
 
 - C# trabajo practico, no entregable
 
@@ -11,11 +15,10 @@
 
 - Examen Parcial de Ingles, 18 de Mayo (presencial)
 
-- Agregar un scroll indicator
-
 - Agregar seccion The To Do List ✔️
 
-- Futuras imlplementaciones: Seccion de clases grabadas (ya sea para descargar como para ver en linea)
+- Futuras imlplementaciones:    - Seccion de clases grabadas (ya sea para descargar como para ver en linea)
+                                - Agregar seccion: CV de Alumnos o Participantes del proyecto
 
 - Optimizar funcionalidad de fecha y hora : Hoy es [el_dia_nombre] [el_dia_número],Hora en vivo y Calendario.
 
@@ -25,4 +28,4 @@
 
 - Mejorar estructura basica del diseño html y estilos
 
-- Implementar algun framework
+- Trabajar con el framework Tailwind: https://tailwindcss.com/

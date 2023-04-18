@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumnos | Participantes del proyecto UPSO</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="https://www.upso.edu.ar/wp-content/themes/upso2/images/favicon.ico">
+	<!-- TAILWIND -->
+	<!-- <script src="https://cdn.tailwindcss.com"></script> -->
+	<!-- W3.CSS -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<!-- Font Awesome Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Google Material Design Icons -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- W3.CSS - Pro -->
+	<link rel="stylesheet" href="w3pro.css">
+
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0;
+        }
+        
+        html {
+          box-sizing: border-box;
+        }
+        
+        *, *:before, *:after {
+          box-sizing: inherit;
+        }
+        
+        .column {
+          float: left;
+          width: 33.3%;
+          margin-bottom: 16px;
+          padding: 0 8px;
+        }
+        
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          margin: 8px;
+        }
+        
+        .about-section {
+          padding: 50px;
+          text-align: center;
+          background-color: #474e5d;
+          color: white;
+        }
+        
+        .container {
+          padding: 0 16px;
+        }
+        
+        .container::after, .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        .title {
+          color: grey;
+        }
+        
+        .button {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 8px;
+          color: white;
+          background-color: #000;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+        }
+        
+        .button:hover {
+          background-color: #555;
+        }
+        
+        @media screen and (max-width: 650px) {
+          .column {
+            width: 100%;
+            display: block;
+          }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="navbar-left">
+                <a href="https://www.upso.edu.ar/" target="_blank">
+                    <img width="50%" src="https://www.upso.edu.ar/wp-content/themes/upso2/images/header/logo-UPSO.png" alt="logo-upso">
+                </a>
+            </div>
+			<div class="w3-panel">
+				<h1>Tecnicatura Universitaria en Tecnologías de Programación</h1>
+			</div>   
+        </div>
+        <div class="navbar-right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a target="_blank" href="https://www.upso.edu.ar/tecnicatura-universitaria-en-tecnologias-de-programacion/">Modalidad presencial</a></li>
+                <li><a target="_blank" href="https://www.upso.edu.ar/tecnicatura-universitaria-en-tecnologias-de-programacion-modalidad-a-distancia/">Modalidad a distancia</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Esta seccion va estar destinada a informacion sobre los alumnos y/o participantes del proyecto -->
+    <header class="w3-container">
+        <h1 class="w3-panel">Participantes del Proyecto</h1>
+    </header>
+    <!-- Cards Section -->
+    <h2 style="text-align:center">Our Team</h2>
+    <div class="row">
+    <div class="column">
+        <div class="card">
+        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <div class="container">
+            <h2>Jane Doe</h2>
+            <p class="title">CEO & Founder</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>jane@example.com</p>
+            <p><button class="button">Contact</button></p>
+        </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+        <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+        <div class="container">
+            <h2>Mike Ross</h2>
+            <p class="title">Art Director</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>mike@example.com</p>
+            <p><button class="button">Contact</button></p>
+        </div>
+        </div>
+    </div>
+    
+    <div class="column">
+        <div class="card">
+        <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+        <div class="container">
+            <h2>John Doe</h2>
+            <p class="title">Designer</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>john@example.com</p>
+            <p><button class="button">Contact</button></p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
