@@ -1,7 +1,7 @@
 
-- Border para el iframe
+- Border para el iframe ✔️
 
-- Seccion de Videos, coming soon
+- Seccion de Videos, coming soon ✔️
 
 - Horarios Fundamentos Diseño Web, viernes 20:00 a 22:00 (P) y lunes 18:00 a 22:00 (T) ✔️
  
@@ -9,7 +9,7 @@
 
 - Parcial Redes y Comunicaciones: Modalidad Virtual 
 
-- C# trabajo practico, no entregable
+- C# trabajo practico, no entregable 
 
 - C# evalucion donde hay que entregar directamete un .exe
 
@@ -23,6 +23,7 @@
 
 - Futuras imlplementaciones:    - Seccion de clases grabadas (ya sea para descargar como para ver en linea)
                                 - Agregar seccion: CV de Alumnos o Participantes del proyecto
+                                - Reemplazar tabla TODO por un Tabs
 
 - Optimizar funcionalidad de fecha y hora : Hoy es [el_dia_nombre] [el_dia_número],Hora en vivo y Calendario.
 
