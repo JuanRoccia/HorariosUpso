@@ -76,10 +76,21 @@ table::-webkit-scrollbar {
   display: none; /* ocultar el scrollbar en Chrome y Safari */
 }
 
+/* Diseño de tabla 2 */
+.tabla2 {
+  background-color: #fff;
+}
+
+.tabla2 th {
+  background-color: #555;
+  background-color: #27282C;
+}
+
 /* Barra de navegación */
 .navbar {
   color: #ccc;
   background-color: #1a1b1e;
+  /* background-color: #27282C; */
   display: flex;
   flex-direction: column;
   padding: 0 1em;
@@ -119,7 +130,7 @@ table::-webkit-scrollbar {
 }
 
 .navbar-right li a:hover {
-  text-decoration: underline;
+  text-decoration: underline 2px solid;
 }
 
 /* Mover y separar enlaces de la barra de navegación */
@@ -222,6 +233,15 @@ table::-webkit-scrollbar {
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+}
+
+/* Style links */
+.tabcontent>p a {
+  color: #6f6f6f;
+  color: #7a7a7a;
+}
+.tabcontent>p a:hover {
+  text-decoration: underline 2px solid;
 }
 
 /* <!--------- SECTION VERSIONES Y TODO LIST ---------> */
@@ -363,7 +383,7 @@ a.link-style {
 }
 
 a.link-style:hover {
-  text-decoration: underline;
+  text-decoration: underline 2px solid;
 }
 
 /* Responsive */
