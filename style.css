@@ -16,6 +16,7 @@ a {
 
 /* Diseño de tablas */
 table {
+  font-family: 'JetBrains Mono', monospace !important;
   border-collapse: collapse;
   width: 100%;
 }
@@ -59,13 +60,42 @@ table {
 
 /* Scroll behavior */
 /* ocultar el scrollbar vertical */
-.scroll::-webkit-scrollbar {
+/* .scroll::-webkit-scrollbar {
   width: 0;
   height: 8px;
 }
 .scroll::-webkit-scrollbar-thumb {
   background-color: #ccc;
+} */
+
+
+/* Scroll behavior */
+/* Mostrar y personalizar el scrollbar vertical */
+.scroll::-webkit-scrollbar {
+  width: 12px; /* Ancho del scrollbar */
+  height: 8px;
+  background-color: #F5F5F5; /* Color de fondo del espacio del scrollbar */
+  background-color: #000;
 }
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Color del pulgar (la parte deslizable) */
+  background-color: #27282C;
+  border-radius: 4px; /* Redondear los bordes del pulgar */
+  background-clip: padding-box; /* Para evitar que el color de fondo se extienda fuera del borde redondeado */
+  border: 2px solid transparent; /* Espacio entre el pulgar y el espacio del scrollbar */
+}
+
+.scroll::-webkit-scrollbar-track {
+  border-radius: 4px; /* Redondear los bordes del espacio del scrollbar */
+}
+
+.scroll:hover::-webkit-scrollbar-thumb {
+  background-color: #999; /* Cambiar el color del pulgar al pasar el mouse por encima */
+}
+
+
+
 /* ocultar scrollbar vertical y aún así permitir el scroll */
 table {
   overflow-y: scroll;
@@ -397,4 +427,14 @@ a.link-style:hover {
     float: none;
     width: 100%;
   }
+}
+
+/* Responsvive Versions Deplymeny Setcion */
+@media screen and (max-width: 570px) {
+ section.todoList-container.w3-container {
+  display: block !important;
+ }
+ section.todoList-container.w3-container article {
+  padding-bottom: 25px;
+ }
 }
