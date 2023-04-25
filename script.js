@@ -77,3 +77,34 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+// Renovar contenido del TabNav
+function actualizarContenido() {
+  // Obtengo el ancho de la ventana
+  const anchoVentana = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+  // Obtengo el elemento que deseas modificar
+  const tab1 = document.getElementById('tabTitle1');
+  const tab2 = document.getElementById('tabTitle2');
+  const tab3 = document.getElementById('tabTitle3');
+  const tab4 = document.getElementById('tabTitle4');
+
+  // Si el ancho de la ventana es menor o igual a 500px, cambia el contenido
+  if (anchoVentana <= 500) {
+    tab1.textContent = 'FDW';
+    tab2.textContent = 'C#.Net';
+    tab3.textContent = 'Redes';
+    tab4.textContent = 'Inglés';
+  } else {
+    tab1.textContent = 'Fundamentos del Diseño Web';
+    tab2.textContent = 'Promgramación C#';
+    tab3.textContent = 'Redes y Comunicaciones';
+    tab4.textContent = 'Inglés Comercial';
+  }
+}
+
+// Llama a la función actualizarContenido cuando se carga la página
+window.addEventListener('load', actualizarContenido);
+
+// Llama a la función actualizarContenido cuando se cambia el tamaño de la ventana
+window.addEventListener('resize', actualizarContenido);

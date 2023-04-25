@@ -51,8 +51,8 @@
     <!-- ENCABEZADO DE TABLA HORARIOS -->
 	<header class="tablaHeader">
 		<div class="w3-panel">
-			<h1 class="titulo text-3xl font-bold jetbrains-font-semibold">Tabla de Horarios Interactiva ✨</h1>
-			<h2>Lorem Ipsum sit Amet</h2>
+			<h1 class="titulo text-3xl font-bold jetbrains-font-semibold">Tabla de Horarios ✨</h1>
+			<h2 class="subtitulo">Lorem Ipsum sit Amet</h2>
 			<p>
 				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus similique quibusdam molestiae consectetur impedit
 				molestias nihil, dolores, enim reprehenderit qui saepe aspernatur accusamus magnam ratione ducimus minus esse dolorem 
@@ -173,7 +173,7 @@
 	<header class="tablaTodo">
 		<div class="w3-panel">
 			<h1 class="titulo text-3xl font-bold jetbrains-font-semibold">Cosas para Hacer ✨</h1>
-			<h2>Lorem Ipsum sit Amet</h2>
+			<h2 class="subtitulo">Lorem Ipsum sit Amet</h2>
 			<p>
 				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus similique quibusdam molestiae consectetur impedit
 				molestias nihil, dolores, enim reprehenderit qui saepe aspernatur accusamus magnam ratione ducimus minus esse dolorem 
@@ -185,10 +185,10 @@
 	<!-- TODO TABS -->
 	<div class="tab">
 		<!-- Tab links -->
-		<button class="tablinks" onclick="openCity(event, 'London')">Fundamentos del Diseño Web</button>
-		<button class="tablinks" onclick="openCity(event, 'Paris')">Promgramación C#</button>
-		<button class="tablinks" onclick="openCity(event, 'Tokyo')">Redes y Comunicaciones</button>
-		<button class="tablinks" onclick="openCity(event, 'Berlin')">Inglés Comercial</button>
+		<button id="tabTitle1" class="tablinks" onclick="openCity(event, 'London')">Fundamentos del Diseño Web</button>
+		<button id="tabTitle2" class="tablinks" onclick="openCity(event, 'Paris')">Promgramación C#</button>
+		<button id="tabTitle3" class="tablinks" onclick="openCity(event, 'Tokyo')">Redes y Comunicaciones</button>
+		<button id="tabTitle4" class="tablinks" onclick="openCity(event, 'Berlin')">Inglés Comercial</button>
 	</div>
 
 	<!-- FDW Tab -->
@@ -744,12 +744,13 @@
 
 	<!-- ENCABEZADO SECTION VERSIONES Y TODO LIST -->
 	<div class="w3-panel">
-		<h1 class="jetbrains-font-semibold">Versions of Deployment 🚀</h1>
-		<h2>Lorem Ipsum sit Amet</h2>
+		<h1 class="titulo jetbrains-font-semibold">Deployment 🚀</h1>
+		<h2 class="subtitulo">Lorem Ipsum sit Amet</h2>
 		<p>
-			En esta sección de la página se muestra las diferentes versiones del proyecto y se brinda un acceso a cada una de dichas  
-			versiones del proyecto para poder participar en el mismo, En la version de replit tenemos una manera de acceder mas directa 
-			mientras que en github se requiere algunos conocimientos previos, Sientase bienvenido/a a participar de cualquier manera.
+			Esta sección de la página muestra las diferentes versiones del proyecto y se brinda un acceso a cada una de ellas para 
+			poder participar, En la version de replit tenemos una manera de acceder mas directa mientras que en github se requiere 
+			algunos conocimientos previos. Podes seguir las indicaciones en el proyecto correspondiente 
+			o <a class="link-style" href=" http://wa.me/2914054585" target="_blank">consultar</a> personalmente para mas información.
 		</p>
 	</div>
 	<!-- SECTION -->
@@ -769,7 +770,7 @@
 		<!-- FINALIZA ARTICLE -->
 
 		<!-- ARTICULO 2 Lista Out Of Context -->
-		<article class="w3-margin">
+		<article id="listaOutof" class="w3-margin">
 			<div id="myDIV" class="header">
 				<h2>🐒 Lista Out of Context</h2>
 				<input type="text" id="myInput" placeholder="Title...">

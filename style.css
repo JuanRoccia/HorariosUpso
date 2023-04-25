@@ -201,9 +201,9 @@ table::-webkit-scrollbar {
     margin-bottom: 1em;
   }
 
-  .titulo {
+  /* .titulo {
     font-size: 1.2rem;
-  }
+  } */
 
   th, td {
     font-size: 12px;
@@ -235,6 +235,15 @@ table::-webkit-scrollbar {
   border: 1px solid #ccc;
   background-color: #f1f1f1;
 }
+
+/* @media screen and (max-width: 500px) {
+  div.tab {
+    display: grid !important;
+  }
+  .tab button {
+    text-align: left;
+  }
+} */
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
@@ -393,6 +402,12 @@ input {
   background-color: #bbb;
 }
 
+@media screen and (max-width: 500px) {
+  #listaOutof {
+    display: none;
+  }
+}
+
 /* Comportamiento lateral del aside */
 .todoList-container {
 	overflow: hidden;
@@ -437,4 +452,14 @@ a.link-style:hover {
  section.todoList-container.w3-container article {
   padding-bottom: 25px;
  }
+}
+
+/* Titulos y subtitulos */
+@media screen and (max-width: 767px) {
+  .titulo {
+    font-size: 1.5rem;
+  }
+  .subtitulo {
+    font-size: 1.4rem;
+  }
 }
