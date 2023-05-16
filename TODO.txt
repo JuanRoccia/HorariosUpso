@@ -9,25 +9,25 @@
 
 - Parcial Redes y Comunicaciones: Modalidad Virtual 
 
-- C# trabajo practico, no entregable 
+- C# trabajo practico, no entregable ✔️
 
-- C# evalucion donde hay que entregar directamete un .exe
+- C# evalucion donde hay que entregar directamete un .exe ✔️
 
 - Actividad Grupal, Ingles: https://campusvirtual.upso.edu.ar/mod/url/view.php?id=357753 VENCE EL 27 DE ABRIL ✔️
 
 - Cuestionario, Ingles: https://campusvirtual.upso.edu.ar/mod/quiz/view.php?id=357806 VENCE EL 27 DE ABRIL ✔️
 
-- Examen Parcial de Ingles, 18 de Mayo (presencial)
+- Examen Parcial de Ingles, 18 de Mayo (presencial) ✔️
 
 - Agregar seccion The To Do List ✔️
 
 - Futuras imlplementaciones:    - Seccion de clases grabadas (ya sea para descargar como para ver en linea)
                                 - Agregar seccion: CV de Alumnos o Participantes del proyecto
-                                - Reemplazar tabla TODO por un Tabs
+                                - Reemplazar tabla TODO por un Tabs ✔️
+
+- Links de clases grabadas RyC: https://campusvirtual.upso.edu.ar/mod/page/view.php?id=357811
 
 - Optimizar funcionalidad de fecha y hora : Hoy es [el_dia_nombre] [el_dia_número],Hora en vivo y Calendario.
-
-- Definir estructura del HTML, ej: [header-nav-table-section-aside-footer] 
 
 - Errores detectados en validator.w3.org y su version para CSS
 
