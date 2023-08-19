@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diseño Web | Proyecto UPSO | GitHub</title>
+    <title>Proyecto UPSO | Diseño Web | GitHub</title>
     <link rel="stylesheet" href="style.css">
     <!-- FAVICON -->
     <link rel="shortcut icon" href="https://www.upso.edu.ar/wp-content/themes/upso2/images/favicon.ico">
 	<!-- TAILWIND -->
-	<!-- <script src="https://cdn.tailwindcss.com"></script> -->
+	<script src="https://cdn.tailwindcss.com"></script>
 	<!-- W3.CSS -->
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<!-- Font Awesome Icons -->
@@ -18,155 +18,194 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<!-- W3.CSS - Pro -->
 	<link rel="stylesheet" href="w3pro.css">
+	<!-- Estilos -->
+	<style>
+		body::before {
+			content: "";
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba(15, 23, 42, 0.9);
+			z-index: -1;
+		}
+
+		.background {
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			z-index: -2;
+			background: rgb(2,0,36);
+			background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, #7c3aed 100%);
+        }
+
+        .navbar {
+			position: sticky;
+			top: 0;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 1rem 2rem;
+			-webkit-backdrop-filter: blur(12px);
+			backdrop-filter: blur(12px);
+			z-index: 1;
+			background-color: rgba(250, 250, 250, 0.1);
+			border-top: 0.5px solid rgba(255, 255, 255, 0.1);
+			border-bottom: 0.5px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .content {
+          padding: 2rem;
+          color: white;
+          z-index: 0;
+        }
+	</style>
 </head>
 
-<body class="scroll">
+<body class="scroll text-white min-h-screen">
+
+
+	<!-- Background Gradient -->
+	<div class="background"></div>
+
 	<!-- ENCABEZADO DE LA PAGINA -->
-	<!-- <header>
-		<h1>Encabezado de la página</h1>
-	</header> -->
-
-    <!-- BARRA DE NAVEGACION -->
-    <nav class="navbar">
-        <div class="navbar-content">
-            <div class="navbar-left">
-                <a href="https://www.upso.edu.ar/" target="_blank">
-                    <img width="50%" src="https://www.upso.edu.ar/wp-content/themes/upso2/images/header/logo-UPSO.png" alt="logo-upso">
-                </a>
-            </div>
-			<div class="w3-panel">
-				<h1 style="color: #ffff;">Tecnicatura Universitaria en Tecnologías de Programación</h1>
-			</div>
-        </div>
-        <div class="navbar-right">
-            <ul>
-				<li><a href="clases.html">Clases</a></li>
-				<li><a href="alumnos.html">Alumnos</a></li>
-                <li><a target="_blank" href="https://www.upso.edu.ar/tecnicatura-universitaria-en-tecnologias-de-programacion/">Modalidad presencial</a></li>
-                <li><a target="_blank" href="https://www.upso.edu.ar/tecnicatura-universitaria-en-tecnologias-de-programacion-modalidad-a-distancia/">Modalidad a distancia</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- ENCABEZADO DE TABLA HORARIOS -->
-	<header class="tablaHeader">
-		<div class="w3-panel">
-			<h1 class="titulo text-3xl font-bold jetbrains-font-semibold">Tabla de Horarios ✨</h1>
-			<h2 class="subtitulo">Lorem Ipsum sit Amet</h2>
-			<p>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus similique quibusdam molestiae consectetur impedit
-				molestias nihil, dolores, enim reprehenderit qui saepe aspernatur accusamus magnam ratione ducimus minus esse dolorem 
-				repellendus!luptate sequi, minima molestias aut beatae modi dolore repudiandae recusandae sit aspernatur odio magnam voluptas.
-			</p>
+	<header class="justify-center w3-padding-64 w3-container m-2">
+		<div class="text-white p-5 text-center m-2 relative max-w-5xl mx-auto">
+		<h1 class="text-5xl m-4 font-bold text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white m-2">Tecnicatura Universitaria <span class="d-hidden sm:inline">en</span> Tecnologías <span class="d-hidden sm:inline">de</span> Programación</h1>
+		</div>
+    	<!-- Hora y fecha en vivo -->
+		<div class="flex flex-col items-center justify-center p-5 text-slate-700">
+			<h2 class="jetbrains-font-semibold text-4xl mb-4" id="reloj">00:00:00</h2>
+			<p id="demo"></p>
 		</div>
 	</header>
-	<!-- COMIENZA TABLA DE HORARIOS -->
-	<div class="table-container">
-		<table id="miTabla">
-			<thead>
-				<tr>
-					<th>Materia</th>
-					<th>Lunes</th>
-					<th>Martes</th>
-					<th>Miércoles</th>
-					<th>Jueves</th>
-					<th>Viernes</th>
-					<th>Sábado</th>
-					<th>Profesores</th>
-					<th>Auxiliares</th>
-					<th>Observaciones</th>
-					<th>Clases Virtuales</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<!-- FUNDAMENTOS DEL DISEÑO WEB -->
-					<td><a title="Ir a Materia" rel="noopener" href="https://campusvirtual.upso.edu.ar/course/view.php?id=5343" target="_blank">FUNDAMENTOS DEL DISEÑO WEB [373] - A</a></td>
-					<td>18:00 a 22:00 (T)</td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td>20:00 a 22:00 (P)</td>
-					<td></td>
-					<td><a title="Ir al Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=3615&course=5343" target="_blank">BERGER, CARLOS ENRIQUE</a></td>
-					<!-- No tiene perfil -->
-					<td><a title="No tiene perfil" rel="noopener" href="" target="_blank">GIMENEZ, JUAN FERNANDO</a></td>
-					<td>Teoría y práctica: Clases sincrónicas semanales.</td>
-					<td style="text-align: center;"><a title="Ir a Clases de Zoom" href="https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=356236" target="_blank">Zoom</a></td>
-				</tr>
-				<tr>
-					<!-- PROGRAMACION C#.Net -->
-					<td><a title="Ir a Materia" rel="noopener" href="https://campusvirtual.upso.edu.ar/course/view.php?id=5370" target="_blank">PROGRAMACIÓN C#/.NET [512] - A</a></td>
-					<td></td>
-					<td>18:00 a 22:00 (T)</td>
-					<td></td>
-					<td></td>
-					<td>18:00 a 20:00 (P)</td>
-					<td></td>
-					<td><a title="Ir al Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=10098&course=5370" target="_blank">DIAZ, MARCELO GUILLERMO</a></td>
-					<td><a title="Ir al Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=9350&course=5370" target="_blank">DESAGES, JUAN FERNANDO</a></td>
-					<td>Teoría y práctica: Clases sincrónicas semanales.</td>
-					<td style="text-align: center;"><a title="Ir a Clases de Zoom" href="https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=355999" target="_blank">Zoom</a></td>
-				</tr>
-				<tr>
-					<!-- REDES y COMUNICACIONES -->
-					<td><a title="Ir a Materia" rel="noopener" href="https://campusvirtual.upso.edu.ar/course/view.php?id=5680" target="_blank">REDES Y COMUNICACIONES [57] - A</a></td>
-					<td></td>
-					<td></td>
-					<td>18:00 a 22:00 (TyP)</td>
-					<td></td>
-					<td></td>
-					<td>10:00 a 12:00 (P)</td>
-					<td><a title="Ir al Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=1708&course=5680" target="_blank">COCCIA CARBALLIDO, MARIANO JOSE</a></td>
-					<td><a title="Ir al Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=8088&course=5680" target="_blank">VALDIVIA, ALAN LUIS</a></td>
-					<td>Teoría y práctica: Clases sincrónicas semanales. Dictado conjunto con Coronel Pringles.</td>
-					<td style="text-align: center;"><a title="Ir a Clases de Zoom" href="https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=356803" target="_blank">Zoom</a></td>
-				</tr>
-				<tr>
-					<!-- INGLES COMERCIAL COMISION A -->
-					<td><a title="Ir a Materia" rel="noopener" href="https://campusvirtual.upso.edu.ar/course/view.php?id=5388" target="_blank">TALLER: INGLÉS COMERCIAL [63] - A</a></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td>18:00 a 19:30 (TyP)</td>
-					<td></td>
-					<td></td>
-					<td><a title="Ir al Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=292&course=5388" target="_blank">LLITERAS, JUAN CARLOS</a></td>
-					<td><a title="Ir al Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=82&course=5388" target="_blank">BARTH, ANDREA PAULINA</a></td>
-					<td>Teoría y práctica: Clases sincrónicas semanales.</td>
-					<td style="text-align: center;"><a title="Ir a Clases de Zoom" href="https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=356319" target="_blank">Zoom</a></td>
-				</tr>
-				<tr>
-					<!-- INGLES COMERCIAL COMISION B -->
-					<td><a title="Ir a Materia" rel="noopener" href="https://campusvirtual.upso.edu.ar/course/view.php?id=5388" target="_blank">TALLER: INGLÉS COMERCIAL [63] - B</a></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td>19:30 a 21:00 (TyP)</td>
-					<td></td>
-					<td></td>
-					<td><a title="Ir al Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=292&course=5388" target="_blank">LLITERAS, JUAN CARLOS</a></td>
-					<td><a title="Ir al Perfil" rel="noopener" href="https://campusvirtual.upso.edu.ar/user/view.php?id=82&course=5388" target="_blank">BARTH, ANDREA PAULINA</a></td>
-					<td>Teoría y práctica: Clases sincrónicas semanales.</td>
-					<td style="text-align: center;"><a title="Ir a Clases de Zoom" href="https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=356319" target="_blank">Zoom</a></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-			</tbody>
-		</table>
+
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="p-4 navbar z-50">
+		<div class="container mx-auto flex justify-between items-center">
+			<div>
+				<a href="https://www.upso.edu.ar/" target="_blank">
+					<img class="w-1/2" src="https://www.upso.edu.ar/wp-content/themes/upso2/images/header/logo-UPSO.png" alt="logo-upso">
+				</a>
+			</div>
+			<div>
+				<ul class="flex space-x-4 text-white">
+				  <li><a href="clases.html" class="hover:text-sky-400">Clases</a></li>
+				  <li><a href="alumnos.html" class="hover:text-sky-400">Alumnos</a></li>
+				  <li><a href="#materias" class="hover:text-sky-400">Materias</a></li>
+				  <li><a href="#proyecto" class="hover:text-sky-400">Proyecto</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+
+	<!-- CONTENEDOR DE TABLA DE HORARIOS -->
+	<div class="min-h-screen flex flex-col z-10">
+		<div id="content-wrapper" class="relative z-20 prose prose-slate mt-12 dark:prose-dark justify-center">
+		  <div class="max-w-3xl mx-auto pt-10 xl:max-w-none xl:m-0 xl:m-[5.5rem] xl:p-2">
+			<div class="not-prose relative bg-slate-50 rounded-xl overflow-hidden dark:bg-slate-800/25">
+				<div class="relative rounded-xl overflow-auto">
+				  <!-- mx-auto max-w-xs sm:text-base sm:leading-7 text-slate-500 dark:text-slate-400 -->
+				  <div class="bg-white shadow-xl p-4 text-sm leading-6 dark:bg-slate-800">
+					<!-- ENCABEZADO DE TABLA HORARIOS -->
+					<header class="tablaHeader w3-padding-32 w3-container">
+						  <div class="w3-panel">
+							  <h1 class="titulo text-3xl font-bold jetbrains-font-semibold">Horarios de Clases - Tabla Interactiva ✨</h1>
+							  <h2 class="subtitulo text-3xl py-2 text-slate-700">Universidad Provincial del Sudoeste (UPSO)</h2>
+							  <p class="text-slate-400 text-lg">
+								  Bienvenidos a la sección de horarios de la Tecnicatura Universitaria en Tecnologías de Programación de la UPSO. Esta tabla interactiva te brinda un panorama completo de los horarios de cada materia, permitiéndote acceder directamente a los perfiles de tus profesores, auxiliares y a las clases virtuales a través de enlaces directos. Además, podes conocer detalles específicos como observaciones y modalidades de cada clase. Navega, hace clic y mantente conectado con todo lo que necesitas para tu formación académica. ¡Preparate para un cuatrimestre lleno de aprendizaje y desafíos! 😊👍
+							  </p>
+						  </div>
+					  </header>
+				  </div>
+	
+				  <!-- COMIENZA TABLA DE HORARIOS -->
+					<div class="table-container">
+						<table id="miTabla">
+							<thead>
+								<tr>
+									<th>Materia</th>
+									<th>Lunes</th>
+									<th>Martes</th>
+									<th>Miércoles</th>
+									<th>Jueves</th>
+									<th>Viernes</th>
+									<th>Sábado</th>
+									<th>Profesores</th>
+									<th>Auxiliares</th>
+									<th>Observaciones</th>
+									<th>Clases Virtuales</th>
+								</tr>
+							</thead>
+							<tbody>
+								<!-- El contenido de esta sección será llenado por JavaScript -->
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- FINALIZA TABLA DE HORARIOS -->
+				</div>
+				<div class="absolute inset-0 pointer-events-none border border-black/5 rounded-xl dark:border-white/5"></div>
+			</div>        
+		  </div>
+		</div>
 	</div>
-	<!-- FINALIZA TABLA DE HORARIOS -->
+	<!-- FINALIZA CONTENEDOR DE TABLA DE HORARIOS -->
+
+	<!-- Script para rellenar la tabla con la API -->
+	<script>
+		// Función para cargar datos de la API y renderizarlos en la tabla
+		function loadMaterias() {
+			// URL de la API
+			const apiUrl = 'tabla-horarios.json';
+	
+			// Hacer una solicitud GET a la API
+			fetch(apiUrl)
+				.then(response => response.json())
+				.then(data => {
+					const tableBody = document.querySelector('#miTabla tbody');
+					data.materias.forEach(materia => {
+						const row = document.createElement('tr');
+						row.innerHTML = `
+							<td><a title="Ir a Materia" rel="noopener" href="${materia.link_moodle}" target="_blank">${materia.nombre}</a></td>
+							<td>${materia.lunes}</td>
+							<td>${materia.martes}</td>
+							<td>${materia.miercoles}</td>
+							<td>${materia.jueves}</td>
+							<td>${materia.viernes}</td>
+							<td>${materia.sabado}</td>
+							<td><a title="Ir al Perfil" href="${materia.link_profe}" target="_blank">${materia.profesor}</a></td>
+							<td>${materia.auxiliar}</td>
+							<td>${materia.observaciones}</td>
+							<td style="text-align: center;"><a title="Ir a Clases de Zoom" href="${materia.link_zoom}" target="_blank">Zoom</a></td>
+						`;
+						tableBody.appendChild(row);
+					});
+				})
+				.catch(error => {
+					console.error('Error al cargar los datos:', error);
+				});
+		}
+	
+		// Llamar a la función cuando se carga la página
+		window.onload = loadMaterias;
+	</script>
 
 
 	<!-- ENCABEZADO DE TODO TABS -->
