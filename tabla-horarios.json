@@ -2,6 +2,7 @@
   "materias": [
     {
       "nombre": "APLICACIONES MÓVILES Y CLOUD COMPUTING",
+      "shortName": "AMCM",
       "lunes": "",
       "martes": "",
       "miercoles": "",
@@ -13,10 +14,12 @@
       "observaciones": "FECHA DE INICIO A CONFIRMAR.",
       "link_zoom": "",
       "link_moodle": "",
-      "link_profe": ""
+      "link_profe": "",
+      "descripcion": "La materia se sumerge en el fascinante mundo de las aplicaciones móviles y la integración con la nube. A lo largo del curso, los estudiantes explorarán los fundamentos de la programación en JavaScript, aprendiendo a crear aplicaciones interactivas y dinámicas. Se introducirá el concepto de Ajax para permitir la comunicación asincrónica con el servidor, y se abordarán tecnologías server-side como PHP, permitiendo a los estudiantes adquirir habilidades fullstack. Además, el curso se adentrará en el desarrollo de aplicaciones RESTful, enfatizando la importancia de la integración con servicios web y cloud. Una parte esencial del programa se dedicará al desarrollo de aplicaciones para Android utilizando Java, proporcionando a los estudiantes las herramientas y técnicas necesarias para crear aplicaciones móviles robustas y escalables. Lamentablemente, aún no hemos encontrado un profesor adecuado para impartir esta materia. Estamos trabajando activamente en la búsqueda y esperamos tener un instructor calificado pronto."
     },
     {
       "nombre": "ELEMENTOS DE APRENDIZAJE DE MÁQUINA Y BIG DATA",
+      "shortName": "EAMBD",
       "lunes": "",
       "martes": "",
       "miercoles": "18:00 a 22:00 (TyP)",
@@ -28,10 +31,12 @@
       "observaciones": "TEORÍA y PRÁCTICA: Clases sincrónicas semanales. Inicio 16/08/2023",
       "link_zoom": "https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=385039",
       "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5762",
-      "link_profe": "https://campusvirtual.upso.edu.ar/user/view.php?id=9687&course=5762"
+      "link_profe": "https://campusvirtual.upso.edu.ar/user/view.php?id=9687&course=5762",
+      "descripcion": "La materia se enfoca en los conceptos y técnicas fundamentales para analizar grandes volúmenes de datos y extraer conocimiento útil mediante algoritmos de aprendizaje automático. Cuenta con recursos académicos disponibles en un repositorio de GitHub, donde se pueden encontrar notebooks, ejemplos de código y material adicional. Además, se utilizan datasets para realizar prácticas con las herramientas y conceptos aprendidos."
     },
     {
       "nombre": "PROGRAMACIÓN DE SISTEMAS EMBEBIDOS",
+      "shortName": "PSE",
       "lunes": "",
       "martes": "",
       "miercoles": "",
@@ -43,10 +48,12 @@
       "observaciones": "TEORÍA y PRÁCTICA: Clases sincrónicas semanales. Inicio 17/08/2023",
       "link_zoom": "https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=385048",
       "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5883",
-      "link_profe": "https://campusvirtual.upso.edu.ar/user/view.php?id=11194&course=5883"
+      "link_profe": "https://campusvirtual.upso.edu.ar/user/view.php?id=11194&course=5883",
+      "descripcion": "Esta materia se enfoca en los conceptos y técnicas para desarrollar software para dispositivos electrónicos con recursos limitados, como microcontroladores, sensores y actuadores. Algunos de los temas que se abordan son: Introducción a los sistemas embebidos, Arquitectura y diseño de sistemas embebidos: cómo seleccionar y configurar los componentes hardware y software adecuados para cada proyecto. Lenguajes y herramientas de programación: cómo utilizar lenguajes de alto y bajo nivel, entornos de desarrollo integrados, depuradores y simuladores para crear código eficiente y robusto. Pruebas y validación de sistemas embebidos: cómo verificar el funcionamiento correcto del software y el hardware, utilizando técnicas como el análisis estático, el testing unitario, la verificación formal y el debugging en vivo."
     },
     {
       "nombre": "PROYECTO INFORMÁTICO",
+      "shortName": "PI",
       "lunes": "",
       "martes": "18:00 a 22:00 (TyP)",
       "miercoles": "",
@@ -58,10 +65,12 @@
       "observaciones": "TEORÍA y PRÁCTICA: Clases sincrónicas semanales. Inicio 15/08/2023",
       "link_zoom": "https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=385067",
       "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5894",
-      "link_profe": "https://campusvirtual.upso.edu.ar/user/view.php?id=3615&course=5894"
+      "link_profe": "https://campusvirtual.upso.edu.ar/user/view.php?id=3615&course=5894",
+      "descripcion": "La materia se enfoca en llevar a cabo un proyecto integral utilizando la mayoría de los conceptos, herramientas y conocimientos adquiridos a lo largo de la carrera. El objetivo es desarrollar un proyecto grupal de desarrollo web full stack, en el que los estudiantes puedan aplicar sus habilidades y conocimientos para crear una aplicación web completa, desde el diseño de la interfaz de usuario hasta la implementación de la lógica de negocio y la integración con bases de datos y servicios externos. La materia se basa en el trabajo en equipo y la colaboración, y brinda a los estudiantes la oportunidad de desarrollar habilidades prácticas y experiencia en el desarrollo de proyectos reales."
     },
     {
       "nombre": "SISTEMAS OPERATIVOS",
+      "shortName": "SO",
       "lunes": "",
       "martes": "",
       "miercoles": "",
@@ -73,7 +82,8 @@
       "observaciones": "",
       "link_zoom": "https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=384823",
       "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5928",
-      "link_profe": "https://campusvirtual.upso.edu.ar/user/view.php?id=11196&course=5928"
+      "link_profe": "https://campusvirtual.upso.edu.ar/user/view.php?id=11196&course=5928",
+      "descripcion": "La materia se enfoca en el estudio de los sistemas operativos, su diseño, implementación y administración. Los estudiantes aprenden sobre la gestión de procesos, memoria, sistemas de archivos, entrada/salida y seguridad en un sistema operativo. La materia brinda una comprensión profunda de cómo funcionan los sistemas operativos y cómo interactúan con el hardware y el software."
     }
   ]
 }

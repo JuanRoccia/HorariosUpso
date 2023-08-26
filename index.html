@@ -67,7 +67,6 @@
 
 <body class="scroll text-white min-h-screen">
 
-
 	<!-- Background Gradient -->
 	<div class="background"></div>
 
@@ -101,7 +100,6 @@
 			</div>
 		</div>
 	</nav>
-	
 
 	<!-- CONTENEDOR DE TABLA DE HORARIOS -->
 	<div class="min-h-screen flex flex-col z-10">
@@ -142,7 +140,6 @@
 								</tr>
 							</thead>
 							<tbody>
-								<!-- El contenido de esta sección será llenado por JavaScript -->
 								<tr>
 									<td></td>
 									<td></td>
@@ -156,7 +153,21 @@
 									<td></td>
 									<td></td>
 								</tr>
+								<!-- El contenido de esta sección será llenado por JavaScript -->
 							</tbody>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
 						</table>
 					</div>
 					<!-- FINALIZA TABLA DE HORARIOS -->
@@ -168,67 +179,40 @@
 	</div>
 	<!-- FINALIZA CONTENEDOR DE TABLA DE HORARIOS -->
 
-	<!-- Script para rellenar la tabla con la API -->
-	<script>
-		// Función para cargar datos de la API y renderizarlos en la tabla
-		function loadMaterias() {
-			// URL de la API
-			const apiUrl = 'tabla-horarios.json';
-	
-			// Hacer una solicitud GET a la API
-			fetch(apiUrl)
-				.then(response => response.json())
-				.then(data => {
-					const tableBody = document.querySelector('#miTabla tbody');
-					data.materias.forEach(materia => {
-						const row = document.createElement('tr');
-						row.innerHTML = `
-							<td><a title="Ir a Materia" rel="noopener" href="${materia.link_moodle}" target="_blank">${materia.nombre}</a></td>
-							<td>${materia.lunes}</td>
-							<td>${materia.martes}</td>
-							<td>${materia.miercoles}</td>
-							<td>${materia.jueves}</td>
-							<td>${materia.viernes}</td>
-							<td>${materia.sabado}</td>
-							<td><a title="Ir al Perfil" href="${materia.link_profe}" target="_blank">${materia.profesor}</a></td>
-							<td>${materia.auxiliar}</td>
-							<td>${materia.observaciones}</td>
-							<td style="text-align: center;"><a title="Ir a Clases de Zoom" href="${materia.link_zoom}" target="_blank">Zoom</a></td>
-						`;
-						tableBody.appendChild(row);
-					});
-				})
-				.catch(error => {
-					console.error('Error al cargar los datos:', error);
-				});
-		}
-	
-		// Llamar a la función cuando se carga la página
-		window.onload = loadMaterias;
-	</script>
-
-
 	<!-- ENCABEZADO DE TODO TABS -->
-	<header class="tablaTodo">
+	<header class="tablaTodo w3-padding-32 w3-container" id="materias">
 		<div class="w3-panel">
-			<h1 class="titulo text-3xl font-bold jetbrains-font-semibold">Cosas para Hacer ✨</h1>
-			<h2 class="subtitulo">Lorem Ipsum sit Amet</h2>
-			<p>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus similique quibusdam molestiae consectetur impedit
-				molestias nihil, dolores, enim reprehenderit qui saepe aspernatur accusamus magnam ratione ducimus minus esse dolorem 
-				repellendus!luptate sequi, minima molestias aut beatae modi dolore repudiandae recusandae sit aspernatur odio magnam voluptas.
+			<h1 class="titulo text-3xl font-bold jetbrains-font-semibold">Materias de la Carrera ✨</h1>
+			<h2 class="subtitulo text-3xl py-2 text-slate-700">Seguimiento Académico</h2>
+			<p class="text-slate-400 text-lg">
+				Bienvenido a la sección de Materias de la Carrera. Este espacio ha sido diseñado para ser tu centro de control académico. Al seleccionar una materia, se desplegará una sección específica que te brindará un seguimiento detallado de trabajos, fechas de entrega, exámenes y otros aspectos cruciales de la asignatura. Pero eso no es todo: también podrás marcar tareas y trabajos prácticos conforme los completes, permitiéndote tener un registro claro de tu progreso y lo que queda por hacer. Es tu herramienta definitiva para mantener todo en orden y al día en tu vida académica. 🎮
 			</p>
 		</div>
 	</header>
 
-	<!-- TODO TABS -->
-	<div class="tab">
-		<!-- Tab links -->
+	<!-- MATERIAS TABS SIN API -->
+	<!-- Tab links -->
+	<!-- <div class="tab">
 		<button id="tabTitle1" class="tablinks" onclick="openCity(event, 'London')">Fundamentos del Diseño Web</button>
 		<button id="tabTitle2" class="tablinks" onclick="openCity(event, 'Paris')">Promgramación C#</button>
 		<button id="tabTitle3" class="tablinks" onclick="openCity(event, 'Tokyo')">Redes y Comunicaciones</button>
 		<button id="tabTitle4" class="tablinks" onclick="openCity(event, 'Berlin')">Inglés Comercial</button>
+	</div> -->
+
+	<!-- MATERIAS TABS -->
+	<div class="tab">
+		<!-- Tab links -->
+		<div class="tablinks-container">
+			<!-- Estos botones se llenarán con JavaScript -->
+		</div>
 	</div>
+
+	<!-- Contenedor para los contenidos de los tabs -->
+	<div class="tabcontent-container">
+		<!-- El contenido de esta sección será llenado por JavaScript -->
+	</div>
+
+
 
 	<!-- FDW Tab -->
 	<div id="London" class="tabcontent" style="background: #ccc;">
@@ -1228,5 +1212,6 @@
 		document.getElementById("demo").innerHTML = d;
     </script>
 	<script src="script.js"></script>
+	<script src="content.js"></script>
 </body>
 </html>

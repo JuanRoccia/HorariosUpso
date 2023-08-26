@@ -1,0 +1,39 @@
+{
+    "materias": [
+      {
+        "nombre": "APLICACIONES MÓVILES Y CLOUD COMPUTING",
+        "descripcion": "FECHA DE INICIO A CONFIRMAR.",
+        "link_zoom": "",
+        "link_moodle": "",
+        "link_profe": ""
+      },
+      {
+        "nombre": "ELEMENTOS DE APRENDIZAJE DE MÁQUINA Y BIG DATA",
+        "descripcion": "TEORÍA y PRÁCTICA: Clases sincrónicas semanales. Inicio 16/08/2023",
+        "link_zoom": "https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=385039",
+        "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5762",
+        "link_profe": "https://campusvirtual.upso.edu.ar/user/view.php?id=9687&course=5762"
+      },
+      {
+        "nombre": "PROGRAMACIÓN DE SISTEMAS EMBEBIDOS",
+        "descripcion": "TEORÍA y PRÁCTICA: Clases sincrónicas semanales. Inicio 17/08/2023",
+        "link_zoom": "https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=385048",
+        "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5883",
+        "link_profe": "https://campusvirtual.upso.edu.ar/user/view.php?id=11194&course=5883"
+      },
+      {
+        "nombre": "PROYECTO INFORMÁTICO",
+        "descripcion": "TEORÍA y PRÁCTICA: Clases sincrónicas semanales. Inicio 15/08/2023",
+        "link_zoom": "https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=385067",
+        "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5894",
+        "link_profe": "https://campusvirtual.upso.edu.ar/user/view.php?id=3615&course=5894"
+      },
+      {
+        "nombre": "SISTEMAS OPERATIVOS",
+        "descripcion": "",
+        "link_zoom": "https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=384823",
+        "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5928",
+        "link_profe": "https://campusvirtual.upso.edu.ar/user/view.php?id=11196&course=5928"
+      }
+    ]
+  }
