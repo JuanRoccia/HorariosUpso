@@ -100,7 +100,7 @@ function loadTabs(data) {
         aulaVirtualLink.className = 'link-style hover:text-sky-400';
         aulaVirtualLink.href = materia.link_moodle;
         aulaVirtualLink.target = '_blank';
-        aulaVirtualLink.textContent = '👉 Aula virtual';
+        aulaVirtualLink.textContent = 'Aula virtual';
         panel.appendChild(aulaVirtualLink);
 
         tabContent.appendChild(panel);
