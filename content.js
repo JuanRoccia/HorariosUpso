@@ -33,46 +33,15 @@ function loadMaterias() {
         });
 }
 
-// Función para rellenar MATERIAS TABS con la API
-// function loadTabs(data) {
-//     const tabLinksContainer = document.querySelector('.tablinks-container');
-//     const tabContentContainer = document.querySelector('.tabcontent-container');
-
-//     data.materias.forEach((materia, index) => {
-//         // Crear botón de tab para cada materia
-
-//         const tabButton = document.createElement('button');
-//         tabButton.className = 'tablinks';
-//         tabButton.textContent = materia.nombre;
-//         tabButton.setAttribute('data-short-name', materia.shortName); // Asume que tienes un campo shortName en tus datos
-//         tabButton.setAttribute('data-long-name', materia.nombre);   // Asume que tienes un campo longName en tus datos
-//         tabButton.onclick = function() {
-//             openTab(index);
-//         };
-//         tabLinksContainer.appendChild(tabButton);
-
-//         // Crear contenido de tab para cada materia
-//         const tabContent = document.createElement('div');
-//         tabContent.className = 'tabcontent';
-//         tabContent.innerHTML = `
-//             <h3>${materia.nombre}</h3>
-//             <!-- Aquí puedes agregar más detalles de cada materia -->
-//         `;
-//         tabContentContainer.appendChild(tabContent);
-//     });
-// }
-
 function loadTabs(data) {
     const tabLinksContainer = document.querySelector('.tablinks-container');
-    const tabContentContainer = document.querySelector('.tabcontent-container'); // Este contenedor contendrá todos los contenidos de los tabs
+    const tabContentContainer = document.querySelector('.tabcontent-container');
 
     data.materias.forEach((materia, index) => {
         // Crear botón de tab para cada materia
         const tabButton = document.createElement('button');
         tabButton.className = 'tablinks';
         tabButton.textContent = materia.nombre;
-        tabButton.setAttribute('data-short-name', materia.shortName); // Asume que tienes un campo shortName en tus datos
-        tabButton.setAttribute('data-long-name', materia.nombre);   // Asume que tienes un campo longName en tus datos
         tabButton.onclick = function() {
             openTab(index);
         };
@@ -80,9 +49,9 @@ function loadTabs(data) {
 
         // Crear contenido de tab para cada materia
         const tabContent = document.createElement('div');
-        tabContent.id = slugify(materia.nombre); // Asume que tienes una función slugify
+        tabContent.id = slugify(materia.nombre);
         tabContent.className = 'tabcontent w3-padding-32 w3-container';
-        
+
         const panel = document.createElement('div');
         panel.className = 'w3-panel';
 
@@ -110,16 +79,77 @@ function loadTabs(data) {
         tableContainer.className = 'table-container';
 
         const table = document.createElement('table');
-        table.id = 'miTabla';
         table.className = 'tabla2';
 
-        // Aquí puedes agregar el thead y el tbody y llenarlos con los datos de materia.actividad_set.all
-        // ...
+        const thead = document.createElement('thead');
+        const tbody = document.createElement('tbody');
 
+        const trHead = document.createElement('tr');
+        trHead.innerHTML = `
+            <tr>
+                <th></th>
+                <th>Nombre</th>
+                <th>Fecha</th>
+                <th>Checkbox</th>
+                <th>Detalles</th>
+            </tr>
+        `;
+
+        table.appendChild(thead);
+        thead.appendChild(trHead);
+       
+        table.appendChild(tbody);
         tableContainer.appendChild(table);
         tabContent.appendChild(tableContainer);
 
         tabContentContainer.appendChild(tabContent);
+
+        // Filtrar las actividades que pertenecen a esta materia
+        const actividadesMateria = data.actividades.filter(actividad => 
+            actividad.materia.toLowerCase().includes(materia.nombre.toLowerCase())
+        );
+
+        // Agregar cada actividad a la tabla
+        actividadesMateria.forEach(actividad => {
+            const tr = document.createElement('tr');
+            const th = document.createElement('th');
+            th.innerHTML = ` <th rowspan="2">${actividad.tipo}</th>`;
+            tr.appendChild(th);
+
+            const tdNombre = document.createElement('td');
+            const aNombre = document.createElement('a');
+            aNombre.href = actividad.link_moodle;
+            aNombre.target = '_blank';
+            aNombre.textContent = actividad.nombre;
+            tdNombre.appendChild(aNombre);
+            tr.appendChild(tdNombre);
+
+            const tdFecha = document.createElement('td');
+            tdFecha.textContent = actividad.fecha;
+            tr.appendChild(tdFecha);
+
+            const tdCheckbox = document.createElement('td');
+            const inputCheckbox = document.createElement('input');
+            inputCheckbox.type = 'checkbox';
+            inputCheckbox.className = 'checkbox';
+            inputCheckbox.checked = actividad.checked;
+            inputCheckbox.onclick = function() {
+                actividad.checked = this.checked;
+                actualizarContenido();
+            };
+            tdCheckbox.appendChild(inputCheckbox);
+            tr.appendChild(tdCheckbox);
+            
+            const tdDetalles = document.createElement('td');
+            const aDetalles = document.createElement('a');
+            aDetalles.href = actividad.link_moodle;
+            aDetalles.target = '_blank';
+            aDetalles.textContent = actividad.detalles;
+            tdDetalles.appendChild(aDetalles);
+            tr.appendChild(tdDetalles);
+
+            tbody.appendChild(tr);
+        });
     });
 }
 

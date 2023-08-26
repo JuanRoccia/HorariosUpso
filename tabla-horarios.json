@@ -85,5 +85,52 @@
       "link_profe": "https://campusvirtual.upso.edu.ar/user/view.php?id=11196&course=5928",
       "descripcion": "La materia se enfoca en el estudio de los sistemas operativos, su diseño, implementación y administración. Los estudiantes aprenden sobre la gestión de procesos, memoria, sistemas de archivos, entrada/salida y seguridad en un sistema operativo. La materia brinda una comprensión profunda de cómo funcionan los sistemas operativos y cómo interactúan con el hardware y el software."
     }
+  ],
+  "actividades": [
+    {
+      "materia": "Aplicaciones Móviles y Cloud Computing",
+      "nombre": "ACTIVIDAD 1",
+      "observaciones": "",
+      "link_zoom": "",
+      "link_moodle": "",
+      "link_profe": "",
+      "descripcion": ""
+    },
+    {
+      "materia": "Elementos de Aprendizaje de Máquina y Big Data",
+      "nombre": "ACTIVIDAD 1",
+      "observaciones": "",
+      "link_zoom": "",
+      "link_moodle": "",
+      "link_profe": "",
+      "descripcion": ""
+    },
+    {
+      "materia": "Programación de Sistemas Embebidos",
+      "nombre": "ACTIVIDAD 1 - SEMAFORO",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=386354",
+      "observaciones": "",
+      "detalles": "Implementación de un semáforo utilizando Arduino IDE y Proteus. El detalle de instrucciones y entrega lo encontrarán dentro de la guía PRACTICA_1.pdf. Por favor, asegúrense de seguir las instrucciones detalladas y cumplir con la fecha de entrega establecida.",
+      "tipo": "TRABAJOS PRACTICOS",
+      "fecha": "Jueves 31 de agosto, 23:59"
+    },
+    {
+      "materia": "Proyecto Informático",
+      "nombre": "ACTIVIDAD 1",
+      "observaciones": "",
+      "link_zoom": "",
+      "link_moodle": "",
+      "link_profe": "",
+      "descripcion": ""
+    },
+    {
+      "materia": "Sistemas Operativos",
+      "nombre": "ACTIVIDAD 1",
+      "observaciones": "",
+      "link_zoom": "",
+      "link_moodle": "",
+      "link_profe": "",
+      "descripcion": ""
+    }
   ]
 }
