@@ -135,7 +135,7 @@ function loadTabs(data) {
             inputCheckbox.checked = actividad.checked;
             inputCheckbox.onclick = function() {
                 actividad.checked = this.checked;
-                actualizarContenido();
+                // actualizarContenido();
             };
             tdCheckbox.appendChild(inputCheckbox);
             tr.appendChild(tdCheckbox);
@@ -155,8 +155,16 @@ function loadTabs(data) {
 
 function openTab(index) {
     const tabContents = document.querySelectorAll('.tabcontent');
+    const tabButtons = document.querySelectorAll('.tablinks');
+
     tabContents.forEach(tab => tab.style.display = 'none'); // Ocultar todos los contenidos
+
+    tabButtons.forEach(button => {
+        button.classList.remove('active'); // Eliminar la clase 'active' de todos los botones
+    });
+
     tabContents[index].style.display = 'block'; // Mostrar el contenido seleccionado
+    tabButtons[index].classList.add('active'); // Agregar la clase 'active' al botón seleccionado
 }
 
 function slugify(text) {
