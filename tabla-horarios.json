@@ -89,15 +89,6 @@
   "actividades": [
     {
       "materia": "Aplicaciones Móviles y Cloud Computing",
-      "nombre": "ACTIVIDAD 1",
-      "observaciones": "",
-      "link_zoom": "",
-      "link_moodle": "",
-      "link_profe": "",
-      "descripcion": ""
-    },
-    {
-      "materia": "Elementos de Aprendizaje de Máquina y Big Data",
       "nombre": "",
       "observaciones": "",
       "link_zoom": "",
@@ -106,12 +97,21 @@
       "descripcion": ""
     },
     {
+      "materia": "Elementos de Aprendizaje de Máquina y Big Data",
+      "tipo": "INFORMES DE LABORATORIO",
+      "nombre": "ACTIVIDAD 1 - LABORATORIO_1",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5762#section-5",
+      "observaciones": "",
+      "detalles": "Los alumnos deben preparar un informe que aborde análisis cualitativos y cuantitativos según sea necesario, respaldados por las visualizaciones correspondientes. Se espera una estructura organizada en secciones presentando los resultados de manera precisa y reflexiva. Finalmente hay que desarrollar el analisis sobre una pregunta adicional.",
+      "fecha": "Miércoles, 16 de septiembre, 23:00 hs."
+    },
+    {
       "materia": "Programación de Sistemas Embebidos",
+      "tipo": "TRABAJOS PRACTICOS",
       "nombre": "ACTIVIDAD 1 - SEMAFORO",
       "link_moodle": "https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=386354",
       "observaciones": "",
       "detalles": "Implementación de un semáforo utilizando Arduino IDE y Proteus. El detalle de instrucciones y entrega lo encontrarán dentro de la guía PRACTICA_1.pdf. Por favor, asegúrense de seguir las instrucciones detalladas y cumplir con la fecha de entrega establecida.",
-      "tipo": "TRABAJOS PRACTICOS",
       "fecha": "Jueves 31 de agosto, 23:59"
     },
     {
