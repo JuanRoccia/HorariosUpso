@@ -63,6 +63,34 @@
           color: white;
           z-index: 0;
         }
+
+
+		/* MODAL'S STYLES */
+		.modal-background {
+			display: block; /* o 'none' si quieres ocultarlo inicialmente */
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgb(2,0,36, 0.4);
+			z-index: 9999;
+			/* overflow-y: auto; */
+			backdrop-filter: blur(10px);
+			-webkit-backdrop-filter: blur(10px);
+		}
+
+		.modal-content {
+			width: 80%;
+			max-width: 500px; 
+			margin: 7% auto; 
+			background-color: rgb(2,0,36, 0.5); 
+			background-color: rgb(2,0,36);
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		}
+
 	</style>
 </head>
 
@@ -70,6 +98,36 @@
 
 	<!-- Background Gradient -->
 	<div class="background"></div>
+
+	<!-- FORMULARIO DE AUTENTICACION -->
+	<div class="modal-background w3-card-4" id="authModal">
+		<!-- class="w3-modal" -->
+		<div class="w3-modal-content modal-content w3-animate-zoom" style="max-width:500px">	
+			<div class="w3-center">
+				<div>
+					<br>
+					<span onclick="document.getElementById('authModal').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Cerrar Modal">×</span>
+					<img src="https://www.upso.edu.ar/wp-content/themes/upso2/images/favicon.ico" alt="Avatar" style="width:25%" class="w3-circle w3-margin-top">
+				</div>
+	
+				<form class="w3-container" id="authForm">
+					<div class="w3-section">
+						<label><b>Email</b></label>
+						<input class="w3-input w3-border w3-margin-bottom" type="email" placeholder="Ingresar Correo" name="email" required>
+						<label><b>Contraseña</b></label>
+						<input class="w3-input w3-border" type="password" placeholder="Ingresar Contraseña" name="password" id="password" required>
+						<button class="w3-button w3-block w3-green w3-section w3-padding" type="submit" onclick="handleLogin()">Iniciar sesión</button>
+						<button class="w3-button w3-block w3-blue w3-section w3-padding" type="button" onclick="handleRegister()">Registrarse</button>
+					</div>
+				</form>
+	
+				<div class="w3-container w3-border-top w3-padding-16">
+					<button onclick="document.getElementById('authModal').style.display='none'" type="button" class="w3-button w3-red">Cancelar</button>
+					<span class="w3-right w3-padding w3-hide-small">¿Olvidaste tu <a href="#">contraseña?</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- ENCABEZADO DE LA PAGINA -->
 	<header class="justify-center w3-padding-64 w3-container m-2">
@@ -407,8 +465,8 @@
 		// 	}
 		// });
 	</script>
-	<script src="js/script.js"></script>
+	<script type="module" src="/js/script.js"></script>
 	<script src="js/content.js"></script>
-	<script src="js/firebase.js"></script>
+	<script type="module" src="js/firebase.js"></script>
 </body>
 </html>

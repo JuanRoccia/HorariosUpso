@@ -1,6 +1,9 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js";
+import { getFirestore } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore.js";
+import { getAuth } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-auth.js";
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -68,3 +71,43 @@ obtenerProgreso(usuarioId, actividadId)
     // No se encontró el progreso para la actividad
     }
 });
+
+
+
+// // Autenticar al usuario (ejemplo de autenticación por correo electrónico y contraseña)
+// firebase.auth().signInWithEmailAndPassword(email, password)
+//   .then((userCredential) => {
+//     // Usuario autenticado, obtén su ID
+//     const userId = userCredential.user.uid;
+
+//     // Guardar el progreso del usuario (por ejemplo, actividad 1 completada)
+//     guardarProgreso(userId, 'actividad1', true);
+//   })
+//   .catch((error) => {
+//     console.error(error);
+//   });
+
+// // Función para guardar el progreso del usuario
+// function guardarProgreso(userId, actividadId, estado) {
+//   db.collection('usuarios').doc(userId).update({
+//     [`actividades.${actividadId}`]: estado
+//   });
+// }
+
+// // Recuperar y mostrar el progreso al cargar la página
+// firebase.auth().onAuthStateChanged((user) => {
+//   if (user) {
+//     const userId = user.uid;
+
+//     // Obtener el progreso del usuario y mostrarlo en los checkboxes
+//     obtenerProgreso(userId, 'actividad1').then((progreso) => {
+//       if (progreso) {
+//         // Marcar el checkbox correspondiente
+//         document.getElementById('checkboxActividad1').checked = true;
+//       }
+//     });
+//   }
+// });
+
+const auth = getAuth(app);
+export { db, auth };

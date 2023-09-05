@@ -79,3 +79,34 @@ window.addEventListener('load', actualizarContenido);
 
 // Llama a la función actualizarContenido cuando se cambia el tamaño de la ventana
 window.addEventListener('resize', actualizarContenido);
+
+// Implemetación de las funciones para manejar el inicio de sesión y registro
+import { iniciarSesion, registrarse } from './auth.js';
+
+function handleLogin() {
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+
+    iniciarSesion(email, password)
+        .then(() => {
+            alert('Inicio de sesión exitoso!');
+            // Aquí puedes redirigir al usuario o cargar su información
+        })
+        .catch(error => {
+            alert('Error al iniciar sesión: ' + error.message);
+        });
+}
+
+function handleRegister() {
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+
+    registrarse(email, password)
+        .then(() => {
+            alert('Registro exitoso!');
+            // Aquí puedes redirigir al usuario o cargar su información
+        })
+        .catch(error => {
+            alert('Error al registrarse: ' + error.message);
+        });
+}

@@ -49,6 +49,7 @@
       "link_zoom": "https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=385048",
       "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5883",
       "link_profe": "https://campusvirtual.upso.edu.ar/user/view.php?id=11194&course=5883",
+      "link_grupos": "https://campusvirtual.upso.edu.ar/mod/forum/discuss.php?d=52952",
       "descripcion": "Esta materia se enfoca en los conceptos y técnicas para desarrollar software para dispositivos electrónicos con recursos limitados, como microcontroladores, sensores y actuadores. Algunos de los temas que se abordan son: Introducción a los sistemas embebidos, Arquitectura y diseño de sistemas embebidos: cómo seleccionar y configurar los componentes hardware y software adecuados para cada proyecto. Lenguajes y herramientas de programación: cómo utilizar lenguajes de alto y bajo nivel, entornos de desarrollo integrados, depuradores y simuladores para crear código eficiente y robusto. Pruebas y validación de sistemas embebidos: cómo verificar el funcionamiento correcto del software y el hardware, utilizando técnicas como el análisis estático, el testing unitario, la verificación formal y el debugging en vivo."
     },
     {
@@ -113,6 +114,15 @@
       "observaciones": "",
       "detalles": "Implementación de un semáforo utilizando Arduino IDE y Proteus. El detalle de instrucciones y entrega lo encontrarán dentro de la guía PRACTICA_1.pdf. Por favor, asegúrense de seguir las instrucciones detalladas y cumplir con la fecha de entrega establecida.",
       "fecha": "Jueves 31 de agosto, 23:59"
+    },
+    {
+      "materia": "Programación de Sistemas Embebidos",
+      "tipo": "TRABAJOS PRACTICOS",
+      "nombre": "ACTIVIDAD 2 - SISTEMA DE ALARMA",
+      "link_moodle": "",
+      "observaciones": "",
+      "detalles": "Implementación de un sistema de alarma utilizando Arduino IDE y Proteus. El detalle de instrucciones y entrega lo encontrarán dentro de la guía PRACTICA_2.pdf. Por favor, asegúrense de seguir las instrucciones detalladas y cumplir con la fecha de entrega establecida.",
+      "fecha": "Jueves 14 de septiembre, 23:59"
     },
     {
       "materia": "Proyecto Informático",

@@ -65,12 +65,25 @@ function loadTabs(data) {
         materiaDescription.textContent = materia.descripcion;
         panel.appendChild(materiaDescription);
 
+        const linksContainer = document.createElement('div');
+        linksContainer.className = 'flex flex-col';
+        panel.appendChild(linksContainer);
+
+        // Crear el primer enlace y su div contenedor
         const aulaVirtualLink = document.createElement('a');
-        aulaVirtualLink.className = 'link-style hover:text-sky-400';
+        aulaVirtualLink.className = 'link-style hover:text-sky-400 mb-2';
         aulaVirtualLink.href = materia.link_moodle;
         aulaVirtualLink.target = '_blank';
         aulaVirtualLink.textContent = 'Aula virtual';
-        panel.appendChild(aulaVirtualLink);
+        linksContainer.appendChild(aulaVirtualLink);
+
+        // Crear el segundo enlace y su div contenedor
+        const gruposLink = document.createElement('a');
+        gruposLink.className = 'link-style hover:text-sky-400 mb-2';
+        gruposLink.href = materia.link_grupos;
+        gruposLink.target = '_blank';
+        gruposLink.textContent = 'Grupos';
+        linksContainer.appendChild(gruposLink);
 
         tabContent.appendChild(panel);
 
