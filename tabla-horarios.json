@@ -118,11 +118,11 @@
     {
       "materia": "Programación de Sistemas Embebidos",
       "tipo": "TRABAJOS PRACTICOS",
-      "nombre": "ACTIVIDAD 2 - SISTEMA DE ALARMA",
+      "nombre": "ACTIVIDAD 2 ",
       "link_moodle": "",
       "observaciones": "",
-      "detalles": "Implementación de un sistema de alarma utilizando Arduino IDE y Proteus. El detalle de instrucciones y entrega lo encontrarán dentro de la guía PRACTICA_2.pdf. Por favor, asegúrense de seguir las instrucciones detalladas y cumplir con la fecha de entrega establecida.",
-      "fecha": "Jueves 14 de septiembre, 23:59"
+      "detalles": "",
+      "fecha": ""
     },
     {
       "materia": "Proyecto Informático",
