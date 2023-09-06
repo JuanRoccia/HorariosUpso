@@ -523,3 +523,76 @@ a.link-style:hover {
   text-align: center;
   color: rgb(255 255 255);
 }
+
+
+/*Estilos traidos del index.html*/
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(15, 23, 42, 0.9);
+  z-index: -1;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, #7c3aed 100%);
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  z-index: 1;
+  background-color: rgba(250, 250, 250, 0.1);
+  border-top: 0.5px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+
+.content {
+  padding: 2rem;
+  color: white;
+  z-index: 0;
+}
+
+
+/* MODAL'S STYLES */
+.modal-background {
+  display: block; /* o 'none' si quieres ocultarlo inicialmente */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(2,0,36, 0.4);
+  z-index: 9999;
+  /* overflow-y: auto; */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.modal-content {
+  width: 80%;
+  max-width: 500px; 
+  margin: 7% auto; 
+  background-color: rgb(2,0,36, 0.5); 
+  background-color: rgb(2,0,36);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

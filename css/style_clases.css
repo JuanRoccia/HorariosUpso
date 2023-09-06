@@ -1,0 +1,88 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+    height: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(17, 23, 52,1) 35%, rgba(17, 23, 52,1) 0%, rgba(17, 23, 52, 1) 35%);
+    color: white;
+    
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    background: rgb(2,0,36);
+    
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    z-index: 1;
+    background-color: rgba(250, 250, 250, 0.1);
+    border-top: 0.5px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+
+
+.bgimg {
+    /* Background image */
+    background-image: url(forestbridge.jpg);
+    /* Full-screen */
+    height: 100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: cover;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    color: white;
+    /* Add a font */
+    font-family: "Courier New", Courier, monospace;
+    
+    font-family: monospace !important;
+    font-family: 'JetBrains Mono', monospace !important;
+    font-weight: 600;
+
+    /* Set the font-size to 25 pixels */
+    font-size: 25px;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+/* Position text in the middle */
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Style the <hr> element */
+hr {
+    margin: auto;
+    width: 40%;
+}

@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clases Grabadas | Proyecto UPSO</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <!-- FAVICON -->
     <link rel="shortcut icon" href="https://www.upso.edu.ar/wp-content/themes/upso2/images/favicon.ico">
 	<!-- TAILWIND -->
-	<!-- <script src="https://cdn.tailwindcss.com"></script> -->
+	<script src="https://cdn.tailwindcss.com"></script>
 	<!-- W3.CSS -->
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<!-- Font Awesome Icons -->
@@ -18,90 +18,38 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<!-- W3.CSS - Pro -->
 	<link rel="stylesheet" href="w3pro.css">
-
-    <style>
-        /* Set height to 100% for body and html to enable the background image to cover the whole page: */
-        body, html {
-            height: 100%
-        }
-
-        .bgimg {
-            /* Background image */
-            background-image: url(forestbridge.jpg);
-            /* Full-screen */
-            height: 100%;
-            /* Center the background image */
-            background-position: center;
-            /* Scale and zoom in the image */
-            background-size: cover;
-            /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
-            position: relative;
-            /* Add a white text color to all elements inside the .bgimg container */
-            color: white;
-            /* Add a font */
-            font-family: "Courier New", Courier, monospace;
-            
-            font-family: monospace !important;
-            font-family: 'JetBrains Mono', monospace !important;
-            font-weight: 600;
-
-            /* Set the font-size to 25 pixels */
-            font-size: 25px;
-        }
-
-        /* Position text in the top-left corner */
-        .topleft {
-            position: absolute;
-            top: 0;
-            left: 16px;
-        }
-
-        /* Position text in the bottom-left corner */
-        .bottomleft {
-            position: absolute;
-            bottom: 0;
-            left: 16px;
-        }
-
-        /* Position text in the middle */
-        .middle {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-        }
-
-        /* Style the <hr> element */
-        hr {
-            margin: auto;
-            width: 40%;
-        }
-    </style>
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="../css/style_clases.css">
 </head>
 <body>
+    <!-- HEADER -->
+	<header class="justify-center w3-padding-64 w3-container m-2">
+		<div class="text-white p-5 text-center m-2 relative max-w-5xl mx-auto">
+		    <h1 class="m-4 font-bold text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white m-2">Tecnicatura Universitaria <span class="d-hidden sm:inline">en</span> Tecnologías <span class="d-hidden sm:inline">de</span> Programación</h1>
+		</div>
+	</header>
+    <!-- FIN HEADER -->
 
     <!-- BARRA DE NAVEGACION -->
-    <nav class="navbar">
-        <div class="navbar-content">
-            <div class="navbar-left">
+    <nav class="p-4 navbar z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div>
                 <a href="https://www.upso.edu.ar/" target="_blank">
-                    <img width="50%" src="https://www.upso.edu.ar/wp-content/themes/upso2/images/header/logo-UPSO.png" alt="logo-upso">
+                    <img class="w-1/2" src="https://www.upso.edu.ar/wp-content/themes/upso2/images/header/logo-UPSO.png" alt="logo-upso">
                 </a>
             </div>
-			<div class="w3-panel">
-				<h1>Tecnicatura Universitaria en Tecnologías de Programación</h1>
-			</div>
-        </div>
-        <div class="navbar-right">
-            <ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="alumnos.html">Alumnos</a></li>
-                <li><a target="_blank" href="https://www.upso.edu.ar/tecnicatura-universitaria-en-tecnologias-de-programacion/">Modalidad presencial</a></li>
-                <li><a target="_blank" href="https://www.upso.edu.ar/tecnicatura-universitaria-en-tecnologias-de-programacion-modalidad-a-distancia/">Modalidad a distancia</a></li>
-            </ul>
+            <div>
+                <ul class="flex space-x-4 text-white">
+                    <li><a href="../index.html" class="hover:text-sky-400">Home</a></li>
+                    <li><a href="alumnos.html" class="hover:text-sky-400">Alumnos</a></li>
+                    <li><a target="_blank" href="https://www.upso.edu.ar/tecnicatura-universitaria-en-tecnologias-de-programacion/" class="hover:text-sky-400">Modalidad presencial</a></li>
+                    <li><a target="_blank" href="https://www.upso.edu.ar/tecnicatura-universitaria-en-tecnologias-de-programacion-modalidad-a-distancia/" class="hover:text-sky-400">Modalidad a distancia</a></li>      
+                </ul>
+            </div>
         </div>
     </nav>
+    <!-- FIN BARRA DE NAVEGACION -->
+
 
     <!----- SECCION DESTINADA AL ALOJAMIENTO DE LOS VIDEOS GRABADOS EN CLASES   -   -
 -    -   TANTO PARA VER EN LINEA COMO PARA DESCARGAR EL ARCHIVO ---------->
@@ -109,7 +57,7 @@
 
     <div class="bgimg">
         <div class="topleft">
-            <p>Lorem.</p>
+            <p>Clases Grabadas</p>
         </div>
         <div class="middle">
             <h1>COMING SOON</h1>
