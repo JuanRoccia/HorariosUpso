@@ -3,15 +3,15 @@
     {
       "nombre": "APLICACIONES MÓVILES Y CLOUD COMPUTING",
       "shortName": "AMCM",
-      "lunes": "",
+      "lunes": "17:00 a 20:00 (TyP)",
       "martes": "",
       "miercoles": "",
       "jueves": "",
       "viernes": "",
       "sabado": "",
-      "profesor": "None",
+      "profesor": "Diego Polverelli",
       "auxiliar": "None",
-      "observaciones": "FECHA DE INICIO A CONFIRMAR.",
+      "observaciones": "TEORÍA y PRÁCTICA: Clases sincrónicas semanales. 17 a 20hs. Inicia 25/9.",
       "link_zoom": "",
       "link_moodle": "",
       "link_profe": "",
@@ -49,7 +49,7 @@
       "link_zoom": "https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=385048",
       "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5883",
       "link_profe": "https://campusvirtual.upso.edu.ar/user/view.php?id=11194&course=5883",
-      "link_grupos": "https://campusvirtual.upso.edu.ar/mod/forum/discuss.php?d=52952",
+      "link_grupos": "https://docs.google.com/spreadsheets/d/10QiVm7DymBVpIPI_8RCTAEasup8zN5lthY3PvpH5e_g/edit#gid=0",
       "descripcion": "Esta materia se enfoca en los conceptos y técnicas para desarrollar software para dispositivos electrónicos con recursos limitados, como microcontroladores, sensores y actuadores. Algunos de los temas que se abordan son: Introducción a los sistemas embebidos, Arquitectura y diseño de sistemas embebidos: cómo seleccionar y configurar los componentes hardware y software adecuados para cada proyecto. Lenguajes y herramientas de programación: cómo utilizar lenguajes de alto y bajo nivel, entornos de desarrollo integrados, depuradores y simuladores para crear código eficiente y robusto. Pruebas y validación de sistemas embebidos: cómo verificar el funcionamiento correcto del software y el hardware, utilizando técnicas como el análisis estático, el testing unitario, la verificación formal y el debugging en vivo."
     },
     {
@@ -67,6 +67,7 @@
       "link_zoom": "https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=385067",
       "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5894",
       "link_profe": "https://campusvirtual.upso.edu.ar/user/view.php?id=3615&course=5894",
+      "link_grupos": "https://docs.google.com/spreadsheets/d/1qZDMuwThmUG70xdRvcVesR66d5gPLvd2kneKzwEdDrE/edit?usp=sharing",
       "descripcion": "La materia se enfoca en llevar a cabo un proyecto integral utilizando la mayoría de los conceptos, herramientas y conocimientos adquiridos a lo largo de la carrera. El objetivo es desarrollar un proyecto grupal de desarrollo web full stack, en el que los estudiantes puedan aplicar sus habilidades y conocimientos para crear una aplicación web completa, desde el diseño de la interfaz de usuario hasta la implementación de la lógica de negocio y la integración con bases de datos y servicios externos. La materia se basa en el trabajo en equipo y la colaboración, y brinda a los estudiantes la oportunidad de desarrollar habilidades prácticas y experiencia en el desarrollo de proyectos reales."
     },
     {
@@ -104,7 +105,7 @@
       "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5762#section-5",
       "observaciones": "",
       "detalles": "Los alumnos deben preparar un informe que aborde análisis cualitativos y cuantitativos según sea necesario, respaldados por las visualizaciones correspondientes. Se espera una estructura organizada en secciones presentando los resultados de manera precisa y reflexiva. Finalmente hay que desarrollar el analisis sobre una pregunta adicional.",
-      "fecha": "Miércoles, 16 de septiembre, 23:00 hs."
+      "fecha": "Miércoles, 20 de septiembre, 23:00 hs."
     },
     {
       "materia": "Programación de Sistemas Embebidos",
@@ -118,11 +119,11 @@
     {
       "materia": "Programación de Sistemas Embebidos",
       "tipo": "TRABAJOS PRACTICOS",
-      "nombre": "ACTIVIDAD 2 ",
-      "link_moodle": "",
+      "nombre": "ACTIVIDAD 2 - AUTOMATIZACION DE UN INVERNADERO",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=387124",
       "observaciones": "",
-      "detalles": "",
-      "fecha": ""
+      "detalles": "Desarrollar un sistema automatizado para un invernadero utilizando Arduino UNO. Este sistema monitorizará y controlará la temperatura y humedad del ambiente en tiempo real. Si la temperatura supera los 25°C, se activará un motor ventilador. Si la humedad cae por debajo del 40%, se activará un sistema de riego y un LED verde. El proyecto combina habilidades de programación de microcontroladores con simulación en Proteus. Los entregables incluyen archivos de código, respuestas a preguntas y una simulación de Proteus con el código cargado.",
+      "fecha": "Saturday, 30 September 2023, 11:59 PM"
     },
     {
       "materia": "Proyecto Informático",
