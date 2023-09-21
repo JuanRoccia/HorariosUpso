@@ -1,36 +1,28 @@
 
-- Border para el iframe ✔️
+- Actividad 1 Sistemas Embebidos ✔️
 
-- Seccion de Videos, coming soon ✔️
+- Actividad 2 Sistemas Embebidos ✔️
 
-- Horarios Fundamentos Diseño Web, viernes 20:00 a 22:00 (P) y lunes 18:00 a 22:00 (T) ✔️
- 
-- Trabajo Practico 3 FDW, no entregable ✔️
+- Tarea en el Foro de Sistemas Embebidos ✔️
 
-- Parcial Redes y Comunicaciones: Modalidad Virtual 
+- Laboratorio 1 e Informe de Machine Learnign & Big Data ✔️
 
-- C# trabajo practico, no entregable ✔️
+- Nuevo trabajo de Machine Learnign & Big Data para el 4
 
-- C# evalucion donde hay que entregar directamete un .exe ✔️
+- Trabajo de repaso para Proyecto Informático
 
-- Actividad Grupal, Ingles: https://campusvirtual.upso.edu.ar/mod/url/view.php?id=357753 VENCE EL 27 DE ABRIL ✔️
-
-- Cuestionario, Ingles: https://campusvirtual.upso.edu.ar/mod/quiz/view.php?id=357806 VENCE EL 27 DE ABRIL ✔️
-
-- Examen Parcial de Ingles, 18 de Mayo (presencial) ✔️
-
-- Agregar seccion The To Do List ✔️
-
-- Futuras imlplementaciones:    - Seccion de clases grabadas (ya sea para descargar como para ver en linea)
-                                - Agregar seccion: CV de Alumnos o Participantes del proyecto
-                                - Reemplazar tabla TODO por un Tabs ✔️
-
-- Links de clases grabadas RyC: https://campusvirtual.upso.edu.ar/mod/page/view.php?id=357811
+- Futuras imlplementaciones:    - Seccion de clases grabadas (ya sea para descargar como para ver en linea) ✔️
+                                - Agregar seccion: CV/Portafolio de Alumnos o Participantes del proyecto ✔️
+                                - Desarrollar dichas secciones
 
 - Optimizar funcionalidad de fecha y hora : Hoy es [el_dia_nombre] [el_dia_número],Hora en vivo y Calendario.
 
 - Errores detectados en validator.w3.org y su version para CSS
 
-- Mejorar estructura basica del diseño html y estilos
+- Trabajar Tailwind: https://tailwindcss.com/
 
-- Trabajar con el framework Tailwind: https://tailwindcss.com/
+- Desarrollar manejo de inicio de sesiones de usuario
+
+- Desarrollar personslizacion del seguimiento de tareas segun el usuario
+
+- Optimizar la implementacion de los checkbox para el seguimiento de las tareas
