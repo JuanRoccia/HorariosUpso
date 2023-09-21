@@ -126,6 +126,15 @@
       "fecha": "Saturday, 30 September 2023, 11:59 PM"
     },
     {
+      "materia":"Programación de Sistemas Embebidos",
+      "tipo":"PARTICIPACION EN EL FORO",
+      "nombre":"TAREA DE CONSULTA - FORO",
+      "link_moodle":"https://campusvirtual.upso.edu.ar/mod/forum/discuss.php?d=53346#unread",
+      "observaciones":"",
+      "detalles":"Participación en el foro de la materia. Se debe responder a las interrogantes sobre el tema de la clase",
+      "fecha":"Friday, 15 September 2023, 2:20 PM"
+    },
+    {
       "materia": "Proyecto Informático",
       "nombre": "",
       "observaciones": "",
