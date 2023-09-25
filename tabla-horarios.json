@@ -12,9 +12,9 @@
       "profesor": "Diego Polverelli",
       "auxiliar": "None",
       "observaciones": "TEORÍA y PRÁCTICA: Clases sincrónicas semanales. 17 a 20hs. Inicia 25/9.",
-      "link_zoom": "",
-      "link_moodle": "",
-      "link_profe": "",
+      "link_zoom": "https://campusvirtual.upso.edu.ar/mod/lti/view.php?id=387626",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5713",
+      "link_profe": "https://campusvirtual.upso.edu.ar/user/view.php?id=11352&course=5713",
       "descripcion": "La materia se sumerge en el fascinante mundo de las aplicaciones móviles y la integración con la nube. A lo largo del curso, los estudiantes explorarán los fundamentos de la programación en JavaScript, aprendiendo a crear aplicaciones interactivas y dinámicas. Se introducirá el concepto de Ajax para permitir la comunicación asincrónica con el servidor, y se abordarán tecnologías server-side como PHP, permitiendo a los estudiantes adquirir habilidades fullstack. Además, el curso se adentrará en el desarrollo de aplicaciones RESTful, enfatizando la importancia de la integración con servicios web y cloud. Una parte esencial del programa se dedicará al desarrollo de aplicaciones para Android utilizando Java, proporcionando a los estudiantes las herramientas y técnicas necesarias para crear aplicaciones móviles robustas y escalables. Lamentablemente, aún no hemos encontrado un profesor adecuado para impartir esta materia. Estamos trabajando activamente en la búsqueda y esperamos tener un instructor calificado pronto."
     },
     {
