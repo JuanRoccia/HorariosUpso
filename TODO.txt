@@ -7,6 +7,8 @@
 
 - Laboratorio 1 e Informe de Machine Learnign & Big Data ✔️
 
+- Aplicaciones Móviles y Cloud Computing: ✔️
+
 - Nuevo trabajo de Machine Learnign & Big Data para el 4
 
 - Trabajo de repaso para Proyecto Informático
@@ -26,3 +28,30 @@
 - Desarrollar personslizacion del seguimiento de tareas segun el usuario
 
 - Optimizar la implementacion de los checkbox para el seguimiento de las tareas
+
+
+
+- Falla de colores en pantalla mobile andorid mobile del browser:
+
+    1. Uso de TailwindCSS: Noté que estás intentando usar TailwindCSS, pero la forma en que lo estás incluyendo no es la correcta. Estás usando un script de TailwindCSS, pero Tailwind no funciona de esa manera. Deberías incluir TailwindCSS como una hoja de estilos y no como un script. Para usar TailwindCSS, normalmente necesitas configurarlo usando herramientas como PostCSS y PurgeCSS, y luego compilarlo en una hoja de estilos final.
+
+    2. Clase dark:bg-slate-800: Esta clase parece ser una combinación de las utilidades de modo oscuro (dark:) y un color personalizado (bg-slate-800). Si bg-slate-800 no es una clase predeterminada de TailwindCSS, necesitas asegurarte de que esté definida en tu configuración de Tailwind. Además, para que el modo oscuro funcione, debes tener configurado el modo oscuro en Tailwind y el elemento raíz (o el elemento padre) debe tener la clase dark.
+
+    3. Conflictos con otras hojas de estilos: Estás incluyendo múltiples hojas de estilos (W3.CSS, Font Awesome, Google Material Design Icons, etc.). Es posible que haya conflictos entre estas hojas de estilos y TailwindCSS. Te recomendaría revisar si alguna de estas hojas de estilos está sobrescribiendo o interfiriendo con las clases de Tailwind.
+
+    4. Verificación en diferentes navegadores: Asegúrate de verificar cómo se ve tu sitio en diferentes navegadores y dispositivos. Puede ser útil usar herramientas como BrowserStack para emular diferentes dispositivos y navegadores.
+
+    5. Herramientas de desarrollo del navegador: Usa las herramientas de desarrollo de tu navegador (F12 o Ctrl+Shift+I en la mayoría de los navegadores) para inspeccionar los elementos que no se muestran correctamente. Esto te permitirá ver qué estilos se están aplicando y cuáles no, y te ayudará a identificar posibles problemas.
+
+    Solución:
+    Para solucionar el problema con TailwindCSS, te recomendaría seguir estos pasos:
+
+    1. Configura TailwindCSS correctamente en tu proyecto. Puedes seguir la documentación oficial para hacerlo.
+    2. Una vez configurado, compila tu CSS y enlaza la hoja de estilos resultante en tu HTML.
+    3. Asegúrate de que todas las clases personalizadas (como bg-slate-800) estén definidas en tu configuración de Tailwind.
+    4. Si estás usando el modo oscuro, asegúrate de que esté configurado correctamente y de que tu elemento raíz o padre tenga la clase dark cuando quieras activar el modo oscuro.
+
+
+- Testeo QA: https://www.browserstack.com/
+
+- CSS autoprefixer: https://autoprefixer.github.io/
