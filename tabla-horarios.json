@@ -136,21 +136,21 @@
     },
     {
       "materia": "Proyecto Informático",
-      "nombre": "",
+      "tipo": "TRABAJOS PRACTICOS",
+      "nombre": "PRACTICO GENERAL DE REPASO",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/mod/folder/view.php?id=374388",
       "observaciones": "",
-      "link_zoom": "",
-      "link_moodle": "",
-      "link_profe": "",
-      "descripcion": ""
+      "detalles": "Práctio de repaso para consolidar los temas aprendidos en clase.",
+      "fecha": ""
     },
     {
       "materia": "Sistemas Operativos",
+      "tipo": "",
       "nombre": "",
-      "observaciones": "",
-      "link_zoom": "",
       "link_moodle": "",
-      "link_profe": "",
-      "descripcion": ""
+      "observaciones": "",
+      "detalles": "",
+      "fecha": ""
     }
   ]
 }
