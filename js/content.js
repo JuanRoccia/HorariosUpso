@@ -145,13 +145,27 @@ function loadTabs(data) {
             const inputCheckbox = document.createElement('input');
             inputCheckbox.type = 'checkbox';
             inputCheckbox.className = 'checkbox';
-            inputCheckbox.checked = actividad.checked;
+            inputCheckbox.checked = actividad.checkbox === 'checked';
             inputCheckbox.onclick = function() {
-                actividad.checked = this.checked;
+                actividad.checkbox = this.checked ? 'checked' : '';
                 // actualizarContenido();
+                localStorage.setItem('actividades', JSON.stringify(data.actividades));
             };
             tdCheckbox.appendChild(inputCheckbox);
             tr.appendChild(tdCheckbox);
+
+
+            // const inputCheckbox = document.createElement('input');
+            // inputCheckbox.type = 'checkbox';
+            // inputCheckbox.className = 'checkbox';
+            // inputCheckbox.checked = actividad.checked;
+            // inputCheckbox.onclick = function() {
+            //     actividad.checked = this.checked;
+            //     localStorage.setItem('actividades', JSON.stringify(data.actividades));
+            // };
+            // tdCheckbox.appendChild(inputCheckbox);
+            // tr.appendChild(tdCheckbox);
+
             
             const tdDetalles = document.createElement('td');
             const aDetalles = document.createElement('a');
@@ -192,5 +206,5 @@ function slugify(text) {
 // Llamar a las funciones cuando se carga la página
 window.addEventListener('load', function() {
     loadMaterias();
-    actualizarContenido();
+    // actualizarContenido();
 });

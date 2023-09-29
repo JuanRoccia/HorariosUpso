@@ -91,12 +91,13 @@
   "actividades": [
     {
       "materia": "Aplicaciones Móviles y Cloud Computing",
+      "tipo": "",
       "nombre": "",
-      "observaciones": "",
-      "link_zoom": "",
       "link_moodle": "",
-      "link_profe": "",
-      "descripcion": ""
+      "observaciones": "",
+      "detalles": "",
+      "fecha": "",
+      "checkbox": ""
     },
     {
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
@@ -105,7 +106,8 @@
       "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5762#section-5",
       "observaciones": "",
       "detalles": "Los alumnos deben preparar un informe que aborde análisis cualitativos y cuantitativos según sea necesario, respaldados por las visualizaciones correspondientes. Se espera una estructura organizada en secciones presentando los resultados de manera precisa y reflexiva. Finalmente hay que desarrollar el analisis sobre una pregunta adicional.",
-      "fecha": "Miércoles, 20 de Septiembre, 23:00 hs."
+      "fecha": "Miércoles, 20 de Septiembre, 23:00 hs.",
+      "checkbox": "checked"
     },
     {
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
@@ -114,7 +116,8 @@
       "link_moodle": "",
       "observaciones": "",
       "detalles": "Examen parcial de la materia. Se evaluarán los temas vistos hasta la fecha de la evaluación. Modalidad: online, multiple choice.",
-      "fecha": "Miércoles, 11 de Octubre, 18:00 hs."
+      "fecha": "Miércoles, 11 de Octubre, 18:00 hs.",
+      "checkbox": ""
     },
     {
       "materia": "Programación de Sistemas Embebidos",
@@ -123,7 +126,8 @@
       "link_moodle": "https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=386354",
       "observaciones": "",
       "detalles": "Implementación de un semáforo utilizando Arduino IDE y Proteus. El detalle de instrucciones y entrega lo encontrarán dentro de la guía PRACTICA_1.pdf. Por favor, asegúrense de seguir las instrucciones detalladas y cumplir con la fecha de entrega establecida.",
-      "fecha": "Jueves 31 de agosto, 23:59"
+      "fecha": "Jueves 31 de agosto, 23:59",
+      "checkbox": "checked"
     },
     {
       "materia": "Programación de Sistemas Embebidos",
@@ -132,7 +136,8 @@
       "link_moodle": "https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=387124",
       "observaciones": "",
       "detalles": "Desarrollar un sistema automatizado para un invernadero utilizando Arduino UNO. Este sistema monitorizará y controlará la temperatura y humedad del ambiente en tiempo real. Si la temperatura supera los 25°C, se activará un motor ventilador. Si la humedad cae por debajo del 40%, se activará un sistema de riego y un LED verde. El proyecto combina habilidades de programación de microcontroladores con simulación en Proteus. Los entregables incluyen archivos de código, respuestas a preguntas y una simulación de Proteus con el código cargado.",
-      "fecha": "Saturday, 30 September 2023, 11:59 PM"
+      "fecha": "Saturday, 30 September 2023, 11:59 PM",
+      "checkbox": "checked"
     },
     {
       "materia":"Programación de Sistemas Embebidos",
@@ -141,7 +146,8 @@
       "link_moodle":"https://campusvirtual.upso.edu.ar/mod/forum/discuss.php?d=53346#unread",
       "observaciones":"",
       "detalles":"Participación en el foro de la materia. Se debe responder a las interrogantes sobre el tema de la clase",
-      "fecha":"Friday, 15 September 2023, 2:20 PM"
+      "fecha":"Friday, 15 September 2023, 2:20 PM",
+      "checkbox": "checked"
     },
     {
       "materia":"Programación de Sistemas Embebidos",
@@ -150,7 +156,8 @@
       "link_moodle":"",
       "observaciones":"",
       "detalles":"Examen parcial de la materia. Se evaluarán los temas vistos hasta la fecha de la evaluación. Modalidad: online. Metodologia: a confirmar.",
-      "fecha":"Jueves, 12 de Octubre 2023, 18:00 hs"
+      "fecha":"Jueves, 12 de Octubre 2023, 18:00 hs",
+      "checkbox": ""
     },
     {
       "materia": "Proyecto Informático",
@@ -159,7 +166,8 @@
       "link_moodle": "https://campusvirtual.upso.edu.ar/mod/folder/view.php?id=374388",
       "observaciones": "",
       "detalles": "Práctio de repaso para consolidar los temas aprendidos en clase. Este trabajo implica la creación y manipulación de bases de datos, el manejo de formatos JSON, la implementación de un frontend para interactuar con una API, el uso de Git para control de versiones y la creación de una aplicación web con Flask. La finalidad es aplicar y reforzar los conocimientos adquiridos en estas áreas.",
-      "fecha": ""
+      "fecha": "No entregable",
+      "checkbox": "checked"
     },
     {
       "materia": "Sistemas Operativos",
@@ -168,7 +176,8 @@
       "link_moodle": "",
       "observaciones": "",
       "detalles": "",
-      "fecha": ""
+      "fecha": "",
+      "checkbox": ""
     }
   ]
 }
