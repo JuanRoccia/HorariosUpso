@@ -1,4 +1,6 @@
 
+==========>> ACTUALIZACIONES DE CONTENIDO:
+
 - Actividad 1 Sistemas Embebidos ✔️
 
 - Actividad 2 Sistemas Embebidos ✔️
@@ -9,9 +11,20 @@
 
 - Aplicaciones Móviles y Cloud Computing: ✔️
 
+- Nuevo examen de Sistemas Operativos para el 12 de octubre ✔️
+
+- Nuevp examen de Mchine Learning & Big Data para el 11 de octubre ✔️
+
 - Nuevo trabajo de Machine Learnign & Big Data para el 4
 
 - Trabajo de repaso para Proyecto Informático
+
+-App Moviles sabremos el próximo lunes sobre los trabajos.
+
+-Sistemas Operativos, nada.
+
+
+==========>> MEJORAS:
 
 - Futuras imlplementaciones:    - Seccion de clases grabadas (ya sea para descargar como para ver en linea) ✔️
                                 - Agregar seccion: CV/Portafolio de Alumnos o Participantes del proyecto ✔️
@@ -29,7 +42,12 @@
 
 - Optimizar la implementacion de los checkbox para el seguimiento de las tareas
 
+- Modificar seccion materias, sin tablas, mas adaptable al tamaño de pantallas y visualizacion mas clara.
 
+- Agregar una tabla general o represantacion que detalle las cosas que hay que ir haciendo en sus respectivas fechas, pantallazo rapido.
+
+
+==========>> TESTEOS:
 
 - Falla de colores en pantalla mobile andorid mobile del browser:
 
@@ -51,7 +69,8 @@
     3. Asegúrate de que todas las clases personalizadas (como bg-slate-800) estén definidas en tu configuración de Tailwind.
     4. Si estás usando el modo oscuro, asegúrate de que esté configurado correctamente y de que tu elemento raíz o padre tenga la clase dark cuando quieras activar el modo oscuro.
 
-
 - Testeo QA: https://www.browserstack.com/
 
 - CSS autoprefixer: https://autoprefixer.github.io/
+
+-cdn.tailwindcss.com no usar en produccion. para usar Tailwind CSS en produccion, instalarlo como PostCSS plugin o usar el Tailwind CLI: https://tailwindcss.com/docs/installation
