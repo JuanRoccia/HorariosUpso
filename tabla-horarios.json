@@ -117,6 +117,16 @@
       "observaciones": "",
       "detalles": "Examen parcial de la materia. Se evaluarán los temas pertenecientes al Módulo 1: Big Data. Modalidad: online, multiple choice.",
       "fecha": "Miércoles, 11 de Octubre, 18:00 hs.",
+      "checkbox": "checked"
+    },
+    {
+      "materia": "Elementos de Aprendizaje de Máquina y Big Data",
+      "tipo": "RECUPERATORIO PARCIAL",
+      "nombre": "RECUPERATORIO PARCIAL - 1",
+      "link_moodle": "",
+      "observaciones": "",
+      "detalles": "Rcuperatorio parcial de la materia. Se evaluarán los temas pertenecientes al Módulo 1: Big Data. Modalidad: online, multiple choice.",
+      "fecha": "",
       "checkbox": ""
     },
     {
@@ -157,7 +167,16 @@
       "observaciones":"",
       "detalles":"Examen parcial de la materia. Se evaluarán los temas vistos en las primeras 6 clases. Será online y constará de una seccion teórica (multiple choice, mixtas y/o completamiento) y otra práctica (programación en Arduino).",
       "fecha":"Jueves, 12/19 de Octubre 2023, 18:00 hs",
-      "checkbox": ""
+      "checkbox": "checked"
+    },
+    {
+      "materia":"Programación de Sistemas Embebidos",
+      "tipo":"PARTICIPACION EN EL FORO",
+      "nombre":"TAREA DE CONSULTA - FORO",
+      "link_moodle":"",
+      "detalles":"",
+      "fecha":"",
+      "checkbox":""
     },
     {
       "materia": "Proyecto Informático",
@@ -171,12 +190,12 @@
     },
     {
       "materia": "Sistemas Operativos",
-      "tipo": "",
-      "nombre": "",
+      "tipo": "TRABAJOS PRACTICOS",
+      "nombre": "TAREA PRACTICA",
       "link_moodle": "",
-      "observaciones": "",
-      "detalles": "",
-      "fecha": "",
+      "observaciones": "No entregable",
+      "detalles": "Configurar un escritorio remoto en Windows y bloquear una IP luego de 3 intentos fallidos de inicio de sesión.",
+      "fecha": "Viernes, 20 de Octubre, 18:00 hs.",
       "checkbox": ""
     }
   ]
