@@ -91,8 +91,8 @@
   "actividades": [
     {
       "materia": "Aplicaciones Móviles y Cloud Computing",
-      "tipo": "",
-      "nombre": "",
+      "tipo": "EXAMEN PARCIAL",
+      "nombre": "EXAMEN FINAL",
       "link_moodle": "",
       "observaciones": "",
       "detalles": "",
@@ -123,10 +123,10 @@
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
       "tipo": "RECUPERATORIO PARCIAL",
       "nombre": "RECUPERATORIO PARCIAL - 1",
-      "link_moodle": "",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/mod/quiz/view.php?id=389415",
       "observaciones": "",
       "detalles": "Rcuperatorio parcial de la materia. Se evaluarán los temas pertenecientes al Módulo 1: Big Data. Modalidad: online, multiple choice.",
-      "fecha": "Miércoles, 25 de Octubre, 19:00 hs.",
+      "fecha": "Miércoles, 25 de Octubre, 20:30 hs.",
       "checkbox": ""
     },
     {
@@ -191,12 +191,42 @@
     {
       "materia": "Sistemas Operativos",
       "tipo": "TRABAJOS PRACTICOS",
-      "nombre": "TAREA PRACTICA",
-      "link_moodle": "",
+      "nombre": "TAREA PRACTICA 1",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5928#section-6",
+      "observaciones": "No entregable",
+      "detalles": "Investigar sobre los mecanismos de comunicación entre procesos y los algoritmos de planificación.",
+      "fecha": "Viernes, 22 de Septiembre, 18:00 hs.",
+      "checkbox": "checked"
+    },
+    {
+      "materia": "Sistemas Operativos",
+      "tipo": "TRABAJOS PRACTICOS",
+      "nombre": "TAREA PRACTICA 2",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5928#section-7",
+      "observaciones": "No entregable",
+      "detalles": "Configurar correctamente una Red NAT entre dos o mas maquinas virtuales en Virtual Box.",
+      "fecha": "Viernes, 29 de Septiembre, 18:00 hs.",
+      "checkbox": "checked"
+    },
+    {
+      "materia": "Sistemas Operativos",
+      "tipo": "TRABAJOS PRACTICOS",
+      "nombre": "TAREA PRACTICA 3",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5928#section-10",
       "observaciones": "No entregable",
       "detalles": "Configurar un escritorio remoto en Windows y bloquear una IP luego de 3 intentos fallidos de inicio de sesión.",
       "fecha": "Viernes, 20 de Octubre, 18:00 hs.",
-      "checkbox": ""
+      "checkbox": "checked"
+    },
+    {
+      "materia":"Sistemas Operativos",
+      "tipo":"TRABAJOS PRACTICOS",
+      "nombre":"TAREA PRACTICA 4",
+      "link_moodle":"https://campusvirtual.upso.edu.ar/course/view.php?id=5928#section-10",
+      "observaciones":"No entregable",
+      "detalles":"Instalación y manejo remoto de un servidor ubuntu virtualizado en virtualbox.",
+      "fecha":"Viernes, 20 de Octubre, 18:00 hs.",
+      "checkbox":"checked"
     }
   ]
 }
