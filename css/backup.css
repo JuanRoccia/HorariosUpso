@@ -2,14 +2,16 @@
 .bg-slate-800 {
     background-color: rgb(30 41 59) !important;
 }
-/* text-white (en el div) */
+/* dark:bg-slate-800/25 */
+.bg-slate-800-25 {
+    background-color: rgba(30, 41, 59, 0.25) !important;
+}
 /* dark:text-white (en el h1) */
 .text-white {
     color: rgb(255 255 255) !important;
 }
 
 /* Resuelto con js agregando las clases de manera par o impar */
-
 /* tr:nth-child(even) */
 /* .nth-child-even {
     background-color: rgb(30 41 59) !important;
