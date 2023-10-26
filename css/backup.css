@@ -10,13 +10,4 @@
 .text-white {
     color: rgb(255 255 255) !important;
 }
-
-/* Resuelto con js agregando las clases de manera par o impar */
-/* tr:nth-child(even) */
-/* .nth-child-even {
-    background-color: rgb(30 41 59) !important;
-} */
-/* tr:hover */
-/* .tr-hover {
-    background-color: rgb(30 41 59);
-} */
+/* Color problems fixed */

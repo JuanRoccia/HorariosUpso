@@ -24,13 +24,6 @@ function loadMaterias() {
                     <td style="text-align: center;"><a title="Ir a Clases de Zoom" href="${materia.link_zoom}" target="_blank">Zoom</a></td>
                 `;
                 tableBody.appendChild(row);
-                // Agregar clase de manera impar a los tr
-                // const trs = document.querySelectorAll('#miTabla tbody tr');
-                // trs.forEach((tr, index) => {
-                //     if (index % 2 !== 0) {
-                //         tr.classList.add('nth-child-even');
-                //     }
-                // });
             });
             // Llamar a loadTabs con data
             loadTabs(data);
