@@ -102,31 +102,41 @@
     {
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
       "tipo": "INFORMES DE LABORATORIO",
-      "nombre": "ACTIVIDAD 1 - LABORATORIO_1",
+      "nombre": "LABORATORIO 1",
       "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5762#section-5",
       "observaciones": "",
-      "detalles": "Los alumnos deben preparar un informe que aborde análisis cualitativos y cuantitativos según sea necesario, respaldados por las visualizaciones correspondientes. Se espera una estructura organizada en secciones presentando los resultados de manera precisa y reflexiva. Finalmente hay que desarrollar el analisis sobre una pregunta adicional.",
+      "detalles": "Preparar un informe que aborde análisis cualitativos y cuantitativos según sea necesario, respaldados por las visualizaciones correspondientes.",
       "fecha": "Miércoles, 20 de Septiembre, 23:00 hs.",
       "checkbox": "checked"
     },
     {
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
       "tipo": "EXAMEN PARCIAL",
-      "nombre": "EXAMEN PARCIAL - 1",
+      "nombre": "EXAMEN PARCIAL 1",
       "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5762#section-1",
       "observaciones": "",
       "detalles": "Examen parcial de la materia. Se evaluarán los temas pertenecientes al Módulo 1: Big Data. Modalidad: online, multiple choice.",
       "fecha": "Miércoles, 11 de Octubre, 18:00 hs.",
       "checkbox": "checked"
-    },
+    },    
     {
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
       "tipo": "RECUPERATORIO PARCIAL",
-      "nombre": "RECUPERATORIO PARCIAL - 1",
+      "nombre": "RECUPERATORIO PARCIAL 1",
       "link_moodle": "https://campusvirtual.upso.edu.ar/mod/quiz/view.php?id=389415",
       "observaciones": "",
       "detalles": "Rcuperatorio parcial de la materia. Se evaluarán los temas pertenecientes al Módulo 1: Big Data. Modalidad: online, multiple choice.",
       "fecha": "Miércoles, 25 de Octubre, 20:30 hs.",
+      "checkbox": "checked"
+    },
+    {
+      "materia": "Elementos de Aprendizaje de Máquina y Big Data",
+      "tipo": "INFORMES DE LABORATORIO",
+      "nombre": "LABORATORIO 2",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5762#section-13",
+      "observaciones": "",
+      "detalles": "Establecer a través de herramientas de aprendizaje automático, un clasificador que pueda predecir las inclinaciones musicales de un individuo y predecir si disfrutará o no de una determinada canción.",
+      "fecha": "Miércoles, 8 de Noviembre, 23:00 hs.",
       "checkbox": ""
     },
     {
