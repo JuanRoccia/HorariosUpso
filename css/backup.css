@@ -10,5 +10,5 @@
 /* tr:nth-child(even) */
 /* Resuelto con js agregando la clase de manera impar */
 .nth-child-even {
-    background-color: rgb(30 41 59);
-  }
+    background-color: rgb(30 41 59) !important;
+}
