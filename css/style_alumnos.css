@@ -120,3 +120,34 @@ header>h1{
   font-weight: 600;
   font-size: 25px;
 }
+
+/* Contact modal */
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+.contact-links .link-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.contact-links .link {
+  color: #000;
+}
+.link {
+  max-width: calc(50% - 10px); 
+  box-sizing: border-box;
+  margin: 5px;
+}
+/* Estilo por defecto para pantallas pequeñas */
+.link {
+  max-width: 100%;
+  margin: 5px 0; /* Solo margen vertical */
+}
+/* Estilo para pantallas más grandes (por ejemplo, más de 768px) */
+@media (min-width: 768px) {
+  .link {
+      max-width: calc(50% - 10px);
+      margin: 5px;
+  }
+}
