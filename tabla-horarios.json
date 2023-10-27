@@ -152,10 +152,10 @@
     {
       "materia": "Programación de Sistemas Embebidos",
       "tipo": "TRABAJOS PRACTICOS",
-      "nombre": "ACTIVIDAD 2 - AUTOMATIZACION DE UN INVERNADERO",
+      "nombre": "ACTIVIDAD 2 - INVERNADERO",
       "link_moodle": "https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=387124",
       "observaciones": "entregable",
-      "detalles": "Desarrollar un sistema automatizado para un invernadero utilizando Arduino UNO. Este sistema monitorizará y controlará la temperatura y humedad del ambiente en tiempo real. Si la temperatura supera los 25°C, se activará un motor ventilador. Si la humedad cae por debajo del 40%, se activará un sistema de riego y un LED verde. El proyecto combina habilidades de programación de microcontroladores con simulación en Proteus. Los entregables incluyen archivos de código, respuestas a preguntas y una simulación de Proteus con el código cargado.",
+      "detalles": "Desarrollar un sistema automatizado para un invernadero utilizando Arduino UNO. Este sistema monitorizará y controlará la temperatura y humedad del ambiente en tiempo real.",
       "fecha": "Saturday, 30 September 2023, 11:59 PM",
       "checkbox": "checked"
     },
@@ -192,7 +192,7 @@
     {
       "materia":"Programación de Sistemas Embebidos",
       "tipo":"TRABAJOS PRACTICOS",
-      "nombre":"ACTIVIDAD 3 - EJERCICIOS VARIOS EN VHDL",
+      "nombre":"ACTIVIDAD 3 - VHDL",
       "link_moodle":"https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=389453",
       "observaciones":"entregable",
       "detalles":"Aprender a reconocer las componentes de un circuito digital, formular su expresión matemática y generar la tabla de verdad para los diferentes problemas a presentarse.",
