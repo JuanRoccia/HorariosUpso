@@ -144,7 +144,7 @@
       "tipo": "TRABAJOS PRACTICOS",
       "nombre": "ACTIVIDAD 1 - SEMAFORO",
       "link_moodle": "https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=386354",
-      "observaciones": "",
+      "observaciones": "entregable",
       "detalles": "Implementación de un semáforo utilizando Arduino IDE y Proteus. El detalle de instrucciones y entrega lo encontrarán dentro de la guía PRACTICA_1.pdf. Por favor, asegúrense de seguir las instrucciones detalladas y cumplir con la fecha de entrega establecida.",
       "fecha": "Jueves 31 de agosto, 23:59",
       "checkbox": "checked"
@@ -154,7 +154,7 @@
       "tipo": "TRABAJOS PRACTICOS",
       "nombre": "ACTIVIDAD 2 - AUTOMATIZACION DE UN INVERNADERO",
       "link_moodle": "https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=387124",
-      "observaciones": "",
+      "observaciones": "entregable",
       "detalles": "Desarrollar un sistema automatizado para un invernadero utilizando Arduino UNO. Este sistema monitorizará y controlará la temperatura y humedad del ambiente en tiempo real. Si la temperatura supera los 25°C, se activará un motor ventilador. Si la humedad cae por debajo del 40%, se activará un sistema de riego y un LED verde. El proyecto combina habilidades de programación de microcontroladores con simulación en Proteus. Los entregables incluyen archivos de código, respuestas a preguntas y una simulación de Proteus con el código cargado.",
       "fecha": "Saturday, 30 September 2023, 11:59 PM",
       "checkbox": "checked"
@@ -183,11 +183,22 @@
       "materia":"Programación de Sistemas Embebidos",
       "tipo":"PARTICIPACION EN EL FORO",
       "nombre":"TAREA DE CONSULTA - FORO",
-      "link_moodle":"",
-      "detalles":"",
-      "fecha":"",
-      "checkbox":""
+      "link_moodle":"https://campusvirtual.upso.edu.ar/mod/forum/discuss.php?d=54428",
+      "observaciones":"",
+      "detalles":"Participación en el foro de la materia. Se debe responder a las interrogantes sobre el tema de la clase",
+      "fecha":"Miércoles, 18 de Octubre, 16:00 hs.",
+      "checkbox":"checked"
     },
+    {
+      "materia":"Programación de Sistemas Embebidos",
+      "tipo":"TRABAJOS PRACTICOS",
+      "nombre":"ACTIVIDAD 3 - EJERCICIOS VARIOS EN VHDL",
+      "link_moodle":"https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=389453",
+      "observaciones":"entregable",
+      "detalles":"Aprender a reconocer las componentes de un circuito digital, formular su expresión matemática y generar la tabla de verdad para los diferentes problemas a presentarse.",
+      "fecha":"Viernes, 10 de Noviembre, 23:59 hs.",
+      "checkbox":""
+    }
     {
       "materia": "Proyecto Informático",
       "tipo": "TRABAJOS PRACTICOS",
