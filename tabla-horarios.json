@@ -95,8 +95,8 @@
       "nombre": "EXAMEN FINAL",
       "link_moodle": "",
       "observaciones": "",
-      "detalles": "",
-      "fecha": "",
+      "detalles": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt aliquam, nunc nisl aliquet nunc.",
+      "fecha": "A confirmar",
       "checkbox": ""
     },
     {
@@ -137,8 +137,28 @@
       "observaciones": "",
       "detalles": "Establecer a través de herramientas de aprendizaje automático, un clasificador que pueda predecir las inclinaciones musicales de un individuo y predecir si disfrutará o no de una determinada canción.",
       "fecha": "Miércoles, 8 de Noviembre, 23:00 hs.",
+      "checkbox": "checked"
+    },
+    {
+      "materia": "Elementos de Aprendizaje de Máquina y Big Data",
+      "tipo": "INFORMES DE LABORATORIO",
+      "nombre": "LABORATORIO 3",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5762#section-14",
+      "observaciones": "",
+      "detalles": "Establecer a través de herramientas de clustering, un modelo que pueda clasificar los estados en diferentes categorías de peligrosidad baja o alta.",
+      "fecha": "Lunes, 20 de Noviembre, 23:00 hs.",
       "checkbox": ""
     },
+    {
+      "materia": "Elementos de Aprendizaje de Máquina y Big Data",
+      "tipo": "EXAMEN FINAL",
+      "nombre": "EXAMEN FINAL",
+      "link_moodle": "",
+      "observaciones": "",
+      "detalles": "Examen final de la materia. Se evaluarán los temas pertenecientes al Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "fecha": "A confirmar",
+      "checkbox": ""
+    },   
     {
       "materia": "Programación de Sistemas Embebidos",
       "tipo": "TRABAJOS PRACTICOS",
@@ -196,7 +216,37 @@
       "link_moodle":"https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=389453",
       "observaciones":"entregable",
       "detalles":"Aprender a reconocer las componentes de un circuito digital, formular su expresión matemática y generar la tabla de verdad para los diferentes problemas a presentarse.",
-      "fecha":"Viernes, 10 de Noviembre, 23:59 hs.",
+      "fecha":"Viernes, 11 de Noviembre, 23:59 hs.",
+      "checkbox":""
+    },
+    {
+      "materia":"Programación de Sistemas Embebidos",
+      "tipo":"EXAMEN PARCIAL",
+      "nombre":"EXAMEN PARCIAL 2 - TEORIA",
+      "link_moodle":"",
+      "observaciones":"entregable",
+      "detalles":"Desarrollo de la parte teórica de la segunda prueba parcial. Se habilita el 23/11 a las 06:00.",
+      "fecha":"Jueves, 23 de Noviembre, 23:59 hs",
+      "checkbox": ""
+    },
+    {
+      "materia":"Programación de Sistemas Embebidos",
+      "tipo":"EXAMEN PARCIAL",
+      "nombre":"EXAMEN PARCIAL 2 - PRACTICA",
+      "link_moodle":"",
+      "observaciones":"entregable",
+      "detalles":"Desarrollo y entrega de la parte práctica correspondiente a la segunda prueba parcial. Se habilita el 23/11 a las 06:00.",
+      "fecha":"Sábado, 2 de Diciembre, 23:59 hs",
+      "checkbox": ""
+    },
+    {
+      "materia":"Programación de Sistemas Embebidos",
+      "tipo":"TRABAJOS PRACTICOS",
+      "nombre":"TRABAJO FINAL",
+      "link_moodle":"",
+      "observaciones":"entregable",
+      "detalles":"Los estudiantes deberán conformar grupos y seleccionar uno de los tres retos proporcionados. Deberán entregar: Informe (normas APA), Archivos respectivos y  Subir a YouTube un video.",
+      "fecha":"Viernes, 8 de Diciembre, 23:59 hs.",
       "checkbox":""
     },
     {
@@ -208,6 +258,26 @@
       "detalles": "Práctio de repaso para consolidar los temas aprendidos en clase. Este trabajo implica la creación y manipulación de bases de datos, el manejo de formatos JSON, la implementación de un frontend para interactuar con una API, el uso de Git para control de versiones y la creación de una aplicación web con Flask. La finalidad es aplicar y reforzar los conocimientos adquiridos en estas áreas.",
       "fecha": "No entregable",
       "checkbox": "checked"
+    },
+    {
+      "materia": "Proyecto Informático",
+      "tipo": "PROYECTO FINAL",
+      "nombre": "PRE ENTREGA - REPOSITORIO",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/mod/forum/discuss.php?d=55014",
+      "observaciones": "entregable",
+      "detalles": "Debemos generar una herramienta de gestión mediante la cual cada cliente tenga acceso a un panel de control para monitorear los servicios contratados y la información asociada a los mismos. Será principalmente un Dashboard para Sistema de Facturación.",
+      "fecha": "Finaliza esta semana (10/11/2023).",
+      "checkbox": ""
+    },
+    {
+      "materia": "Proyecto Informático",
+      "tipo": "PROYECTO FINAL",
+      "nombre": "PRESENTACION PRESENCIAL",
+      "link_moodle": "",
+      "observaciones": "entregable",
+      "detalles": "Debemos presentar el proyecto informatico (Dashboard para Sistema de Facturación) y hacer su defensa mediante la explicación de su desarrollo, funcionamiento y rol de participantes.",
+      "fecha": "4 al 7 de Diciembre, 2023.",
+      "checkbox": ""
     },
     {
       "materia": "Sistemas Operativos",
@@ -248,6 +318,26 @@
       "detalles":"Instalación y manejo remoto de un servidor ubuntu virtualizado en virtualbox.",
       "fecha":"Viernes, 20 de Octubre, 18:00 hs.",
       "checkbox":"checked"
+    },
+    {
+      "materia":"Sistemas Operativos",
+      "tipo":"EXAMEN PARCIAL",
+      "nombre":"EXAMEN PARCIAL 1",
+      "link_moodle":"",
+      "observaciones":"entregable",
+      "detalles":"Se requiere contestar con opciones de elección múltiple, acerca de los contenidos abordados hasta el momento.",
+      "fecha":"Sábado, 18 de Noviembre, 23:59 hs.",
+      "checkbox":""
+    },
+    {
+      "materia":"Sistemas Operativos",
+      "tipo":"EXAMEN PARCIAL",
+      "nombre":"EXAMEN PARCIAL 2",
+      "link_moodle":"",
+      "observaciones":"entregable",
+      "detalles":"Se debe lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt.",
+      "fecha":"A confirmar",
+      "checkbox":""
     }
   ]
 }
