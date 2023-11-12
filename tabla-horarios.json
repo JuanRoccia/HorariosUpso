@@ -143,7 +143,7 @@
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
       "tipo": "EXAMEN PARCIAL",
       "nombre": "EXAMEN PARCIAL 2",
-      "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5762#section-14",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/mod/quiz/view.php?id=390330",
       "observaciones": "",
       "detalles": "El examen consiste en la evaluacion de todas las clases correspondientes a Machine Learning a través del campus Moodle.",
       "fecha": "Miercoles, 15 de Noviembre, 8:05 PM.",
@@ -227,7 +227,7 @@
       "observaciones":"entregable",
       "detalles":"Aprender a reconocer las componentes de un circuito digital, formular su expresión matemática y generar la tabla de verdad para los diferentes problemas a presentarse.",
       "fecha":"Sábado, 11 de Noviembre, 23:59 hs.",
-      "checkbox":""
+      "checkbox":"checked"
     },
     {
       "materia":"Programación de Sistemas Embebidos",
