@@ -141,12 +141,22 @@
     },
     {
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
+      "tipo": "EXAMEN PARCIAL",
+      "nombre": "EXAMEN PARCIAL 2",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5762#section-14",
+      "observaciones": "",
+      "detalles": "Establecer a través de herramientas de clustering, un modelo que pueda clasificar los estados en diferentes categorías de peligrosidad baja o alta.",
+      "fecha": "Miercoles, 15 de Noviembre, 8:05 PM.",
+      "checkbox": ""
+    },
+    {
+      "materia": "Elementos de Aprendizaje de Máquina y Big Data",
       "tipo": "INFORMES DE LABORATORIO",
       "nombre": "LABORATORIO 3",
       "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5762#section-14",
       "observaciones": "",
-      "detalles": "Establecer a través de herramientas de clustering, un modelo que pueda clasificar los estados en diferentes categorías de peligrosidad baja o alta.",
-      "fecha": "Lunes, 20 de Noviembre, 23:00 hs.",
+      "detalles": "El examen consiste en la evaluacion de todas las clases correspondientes a Machine Learning a través del campus Moodle.",
+      "fecha": "Miercoles, 22 de Noviembre, 23:00 hs.",
       "checkbox": ""
     },
     {
