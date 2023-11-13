@@ -205,6 +205,9 @@ function openTab(index, id) {
 
     tabContents[selectedIndex].style.display = 'block'; // Mostrar el contenido seleccionado
     tabButtons[selectedIndex].classList.add('active'); // Agregar la clase 'active' al botón seleccionado
+
+    // Desplazarse hasta el botón seleccionado
+    tabButtons[selectedIndex].scrollIntoView({ behavior: 'smooth' });
 }
 
 function slugify(text) {
