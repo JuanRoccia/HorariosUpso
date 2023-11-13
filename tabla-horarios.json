@@ -236,7 +236,7 @@
       "link_moodle":"https://campusvirtual.upso.edu.ar/pluginfile.php/587685/mod_folder/content/0/PSE_NOV_2023.pdf?forcedownload=",
       "observaciones":"entregable",
       "detalles":"Desarrollo de la parte teórica de la segunda prueba parcial. Se habilita el 23/11 a las 06:00.",
-      "fecha":"Jueves, 23 de Noviembre, 23:59 hs",
+      "fecha":"Fecha Límite: Jueves, 23 de Noviembre, 23:59 hs.",
       "checkbox": ""
     },
     {
@@ -246,17 +246,17 @@
       "link_moodle":"https://campusvirtual.upso.edu.ar/pluginfile.php/587685/mod_folder/content/0/PSE_NOV_2023.pdf?forcedownload=",
       "observaciones":"entregable",
       "detalles":"Desarrollo y entrega de la parte práctica correspondiente a la segunda prueba parcial. Se habilita el 23/11 a las 06:00.",
-      "fecha":"Sábado, 2 de Diciembre, 23:59 hs",
+      "fecha":"Fecha Límite: Sábado, 2 de Diciembre, 23:59 hs",
       "checkbox": ""
     },
     {
       "materia":"Programación de Sistemas Embebidos",
       "tipo":"TRABAJOS PRACTICOS",
       "nombre":"TRABAJO FINAL",
-      "link_moodle":"https://campusvirtual.upso.edu.ar/pluginfile.php/587685/mod_folder/content/0/PSE_NOV_2023.pdf?forcedownload=",
+      "link_moodle":"https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=390269",
       "observaciones":"entregable",
       "detalles":"Los estudiantes deberán conformar grupos y seleccionar uno de los tres retos proporcionados. Deberán entregar: Informe (normas APA), Archivos respectivos y  Subir a YouTube un video.",
-      "fecha":"Viernes, 8 de Diciembre, 23:59 hs.",
+      "fecha":"Fecha límite: Viernes, 8 de Diciembre de 2023, 23:59",
       "checkbox":""
     },
     {
@@ -277,7 +277,7 @@
       "observaciones": "entregable",
       "detalles": "Debemos generar una herramienta de gestión mediante la cual cada cliente tenga acceso a un panel de control para monitorear los servicios contratados y la información asociada a los mismos. Será principalmente un Dashboard para Sistema de Facturación.",
       "fecha": "Esta Semana (7/11).",
-      "checkbox": ""
+      "checkbox": "checked"
     },
     {
       "materia": "Proyecto Informático",
@@ -336,7 +336,7 @@
       "link_moodle":"",
       "observaciones":"entregable",
       "detalles":"Se requiere contestar con opciones de elección múltiple, acerca de los contenidos abordados hasta el momento.",
-      "fecha":"Viernes, 17 de Noviembre, 23:59 hs.",
+      "fecha":"Viernes, 17 de Noviembre.",
       "checkbox":""
     },
     {
