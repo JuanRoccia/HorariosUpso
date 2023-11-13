@@ -2,7 +2,7 @@
   "materias": [
     {
       "nombre": "APLICACIONES MÓVILES Y CLOUD COMPUTING",
-      "shortName": "AMCM",
+      "shortName": "AMCC",
       "lunes": "17:00 a 20:00 (TyP)",
       "martes": "",
       "miercoles": "",
@@ -145,8 +145,8 @@
       "nombre": "EXAMEN PARCIAL 2",
       "link_moodle": "https://campusvirtual.upso.edu.ar/mod/quiz/view.php?id=390330",
       "observaciones": "",
-      "detalles": "El examen consiste en la evaluacion de todas las clases correspondientes a Machine Learning a través del campus Moodle.",
-      "fecha": "Miercoles, 15 de Noviembre, 8:05 PM.",
+      "detalles": "El examen consiste en la evaluacion de todas las clases correspondientes al Módulo 2: Machine Learning, a través del campus Moodle.",
+      "fecha": "Miercoles, 15 de Noviembre, 8:05 a 9:00 PM.",
       "checkbox": ""
     },
     {
@@ -275,9 +275,19 @@
       "nombre": "REPOSITORIO COLABORATIVO CON EL PROFESOR",
       "link_moodle": "https://campusvirtual.upso.edu.ar/mod/forum/discuss.php?d=55014",
       "observaciones": "entregable",
-      "detalles": "Debemos generar una herramienta de gestión mediante la cual cada cliente tenga acceso a un panel de control para monitorear los servicios contratados y la información asociada a los mismos. Será principalmente un Dashboard para Sistema de Facturación.",
-      "fecha": "Esta Semana (7/11).",
+      "detalles": "Debemos generar una herramienta de gestión mediante la cual cada cliente tenga acceso a un panel de control para monitorear los servicios contratados y la información asociada a los mismos. Y Luego agreguar al profesor como colaborador del proyecto en GitHub",
+      "fecha": "Semana (7/11).",
       "checkbox": "checked"
+    },
+    {
+      "materia": "Proyecto Informático",
+      "tipo": "PROYECTO FINAL",
+      "nombre": "CONFIRMACION DE FINALIZACION",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/mod/forum/discuss.php?d=55014",
+      "observaciones": "entregable",
+      "detalles": "Debemos confirmar la finalización del Dashboard de Sistema de Facturación, en la última semana de clases para la presentación presencial del mismo.",
+      "fecha": "Ultima semana de clases.",
+      "checkbox": ""
     },
     {
       "materia": "Proyecto Informático",

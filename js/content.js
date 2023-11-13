@@ -37,13 +37,14 @@ function loadTabs(data) {
     const tabLinksContainer = document.querySelector('.tablinks-container');
     const tabContentContainer = document.querySelector('.tabcontent-container');
 
+    // Crear un botón de pestaña para cada materia
     data.materias.forEach((materia, index) => {
-        // Crear botón de tab para cada materia
         const tabButton = document.createElement('button');
+        tabButton.id = slugify(materia.shortName);
         tabButton.className = 'tablinks';
         tabButton.textContent = materia.nombre;
         tabButton.onclick = function() {
-            openTab(index);
+            openTab(index, this.id);
         };
         tabLinksContainer.appendChild(tabButton);
 
@@ -178,20 +179,32 @@ function loadTabs(data) {
             tbody.appendChild(tr);
         });
     });
+
+    // Cuando se han creado todas las pestañas, abrir la pestaña correspondiente al hash de la URL
+    const hash = window.location.hash.substring(1); // Eliminar el símbolo # del inicio del hash
+    openTab(null, hash);
 }
 
-function openTab(index) {
+
+function openTab(index, id) {
     const tabContents = document.querySelectorAll('.tabcontent');
     const tabButtons = document.querySelectorAll('.tablinks');
 
     tabContents.forEach(tab => tab.style.display = 'none'); // Ocultar todos los contenidos
+    tabButtons.forEach(button => button.classList.remove('active')); // Eliminar la clase 'active' de todos los botones
 
-    tabButtons.forEach(button => {
-        button.classList.remove('active'); // Eliminar la clase 'active' de todos los botones
-    });
+    let selectedIndex;
+    if (id) {
+        const selectedButton = document.getElementById(id);
+        selectedIndex = Array.from(tabButtons).indexOf(selectedButton);
+    } else {
+        selectedIndex = index;
+        tabContents[index].style.display = 'block'; // Mostrar el contenido seleccionado
+        tabButtons[index].classList.add('active'); // Agregar la clase 'active' al botón seleccionado
+    }
 
-    tabContents[index].style.display = 'block'; // Mostrar el contenido seleccionado
-    tabButtons[index].classList.add('active'); // Agregar la clase 'active' al botón seleccionado
+    tabContents[selectedIndex].style.display = 'block'; // Mostrar el contenido seleccionado
+    tabButtons[selectedIndex].classList.add('active'); // Agregar la clase 'active' al botón seleccionado
 }
 
 function slugify(text) {
@@ -202,6 +215,13 @@ function slugify(text) {
         .replace(/^-+/, '')             // Trim - del inicio de la cadena
         .replace(/-+$/, '');            // Trim - del final de la cadena
 }
+
+
+// Cuando se carga la página, abrir la pestaña correspondiente al hash de la URL
+window.onload = function() {
+    const hash = window.location.hash.substring(1); // Eliminar el símbolo # del inicio del hash
+    openTab(null, hash);
+};
 
 // Llamar a las funciones cuando se carga la página
 window.addEventListener('load', function() {
