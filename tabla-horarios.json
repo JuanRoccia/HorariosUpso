@@ -147,16 +147,16 @@
       "observaciones": "",
       "detalles": "El examen consiste en la evaluacion de todas las clases correspondientes al Módulo 2: Machine Learning, a través del campus Moodle.",
       "fecha": "Miercoles, 15 de Noviembre, 8:05 a 9:00 PM.",
-      "checkbox": ""
+      "checkbox": "checked"
     },
     {
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
       "tipo": "INFORMES DE LABORATORIO",
       "nombre": "LABORATORIO 3",
-      "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5762#section-14",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=390439",
       "observaciones": "",
-      "detalles": "Establecer a través de herramientas de clustering, un modelo que pueda clasificar los estados en diferentes categorías de peligrosidad baja o alta.",
-      "fecha": "Miercoles, 22 de Noviembre, 23:00 hs.",
+      "detalles": "Establecer a través de herramientas de clustering, un modelo que pueda clasificar los estados en diferentes categorías de Zonas de peligro.",
+      "fecha": "Sábado, 25 de Noviembre, 23:59 hs.",
       "checkbox": ""
     },
     {
