@@ -347,7 +347,7 @@
       "observaciones":"entregable",
       "detalles":"Se requiere contestar con opciones de elección múltiple, acerca de los contenidos abordados hasta el momento.",
       "fecha":"Viernes, 17 de Noviembre.",
-      "checkbox":""
+      "checkbox":"checked"
     },
     {
       "materia":"Sistemas Operativos",
