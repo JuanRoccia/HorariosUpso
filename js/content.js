@@ -33,6 +33,7 @@ function loadMaterias() {
         });
 }
 
+// Funcion para cargar las pestañas de cada materia
 function loadTabs(data) {
     const tabLinksContainer = document.querySelector('.tablinks-container');
     const tabContentContainer = document.querySelector('.tabcontent-container');
@@ -135,6 +136,9 @@ function loadTabs(data) {
             aNombre.href = actividad.link_moodle;
             aNombre.target = '_blank';
             aNombre.textContent = actividad.nombre;
+            if (actividad.observaciones) {
+                aNombre.title = actividad.observaciones;
+            }
             tdNombre.appendChild(aNombre);
             tr.appendChild(tdNombre);
 
@@ -173,6 +177,9 @@ function loadTabs(data) {
             aDetalles.href = actividad.link_moodle;
             aDetalles.target = '_blank';
             aDetalles.textContent = actividad.detalles;
+            if (actividad.observaciones) {
+                aDetalles.title = actividad.observaciones;
+            }
             tdDetalles.appendChild(aDetalles);
             tr.appendChild(tdDetalles);
 

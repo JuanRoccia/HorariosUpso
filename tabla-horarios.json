@@ -95,8 +95,8 @@
       "nombre": "EXAMEN PARCIAL",
       "link_moodle": "",
       "observaciones": "",
-      "detalles": "Multiple choice dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt aliquam, nunc nisl aliquet nunc.",
-      "fecha": "Lunes, 27 de Noviembre",
+      "detalles": "Lunes, 27 de Noviembre, 17:00 hs habrá noticias. Sed euismod, nisl quis tincidunt aliquam, nunc nisl aliquet nunc.",
+      "fecha": "Algún día de Noviembre/Diciembre, 2023.",
       "checkbox": ""
     },
     {
@@ -112,7 +112,7 @@
     {
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
       "tipo": "EXAMEN PARCIAL",
-      "nombre": "EXAMEN PARCIAL 1",
+      "nombre": "PARCIAL 1",
       "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5762#section-1",
       "observaciones": "",
       "detalles": "Examen parcial de la materia. Se evaluarán los temas pertenecientes al Módulo 1: Big Data. Modalidad: online, multiple choice.",
@@ -122,7 +122,7 @@
     {
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
       "tipo": "RECUPERATORIO PARCIAL",
-      "nombre": "RECUPERATORIO PARCIAL 1",
+      "nombre": "PARCIAL 1",
       "link_moodle": "https://campusvirtual.upso.edu.ar/mod/quiz/view.php?id=389415",
       "observaciones": "",
       "detalles": "Rcuperatorio parcial de la materia. Se evaluarán los temas pertenecientes al Módulo 1: Big Data. Modalidad: online, multiple choice.",
@@ -142,7 +142,7 @@
     {
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
       "tipo": "EXAMEN PARCIAL",
-      "nombre": "EXAMEN PARCIAL 2",
+      "nombre": "PARCIAL 2",
       "link_moodle": "https://campusvirtual.upso.edu.ar/mod/quiz/view.php?id=390330",
       "observaciones": "",
       "detalles": "El examen consiste en la evaluacion de todas las clases correspondientes al Módulo 2: Machine Learning, a través del campus Moodle.",
@@ -157,12 +157,42 @@
       "observaciones": "",
       "detalles": "Establecer a través de herramientas de clustering, un modelo que pueda clasificar los estados en diferentes categorías de Zonas de peligro.",
       "fecha": "Sábado, 25 de Noviembre, 23:59 hs.",
+      "checkbox": "checked"
+    },
+    {
+      "materia": "Elementos de Aprendizaje de Máquina y Big Data",
+      "tipo": "RECUPERATORIO LABORATORIO",
+      "nombre": "LABORATORIO 1",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=390067",
+      "observaciones": "Entrega Recuperatorio de laboratorio: Análisis de Ventas Mensuales",
+      "detalles": "Todos los alumnos con el laboratorio desaprobado deben realizar las correcciones recomendadas y volver a entregarlo.",
+      "fecha": "Domingo, 3 de diciembre de 2023, 12:00 AM.",
+      "checkbox": ""
+    },
+    {
+      "materia": "Elementos de Aprendizaje de Máquina y Big Data",
+      "tipo": "RECUPERATORIO LABORATORIO",
+      "nombre": "LABORATORIO 2",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=390561",
+      "observaciones": "Entrega Recuperatorio de laboratorio: Spotify",
+      "detalles": "Todos los alumnos con el laboratorio desaprobado deben realizar las correcciones recomendadas y volver a entregarlo.",
+      "fecha": "Domingo, 3 de diciembre de 2023, 12:00 AM.",
+      "checkbox": ""
+    },
+    {
+      "materia": "Elementos de Aprendizaje de Máquina y Big Data",
+      "tipo": "RECUPERATORIO LABORATORIO",
+      "nombre": "LABORATORIO 3",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=390562",
+      "observaciones": "Entrega Recuperatorio de laboratorio: Zonas de peligro",
+      "detalles": "Todos los alumnos con el laboratorio desaprobado deben realizar las correcciones recomendadas y volver a entregarlo.",
+      "fecha": "Domingo, 3 de diciembre de 2023, 12:00 AM.",
       "checkbox": ""
     },
     {
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
       "tipo": "EXAMEN FINAL",
-      "nombre": "EXAMEN FINAL",
+      "nombre": "LABORATORIO 4",
       "link_moodle": "",
       "observaciones": "",
       "detalles": "Examen final de la materia. Se evaluarán los temas pertenecientes al Lorem ipsum dolor sit amet, consectetur adipiscing elit.",

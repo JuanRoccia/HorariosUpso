@@ -1,0 +1,28 @@
+/* Cambiar la estructura de la tabla de las pestañas de las materias para obtener un diseño responsive */
+@media screen and (max-width: 768px) {
+    .tabla2 th:first-child {
+        display: none;
+    }
+    .tabla2 th:nth-child(5) {
+        display: none;
+    }
+    .tabla2 th:nth-child(4) {
+        display: none;
+    }
+    .tabla2 th:nth-child(3) {
+        display: none;
+    }
+    .tabla2 td:first-child {
+        display: none;
+    }
+    .tabla2 td:nth-child(5) {
+        display: none;
+    }
+    .tabla2 td:nth-child(4) {
+        display: none;
+    }
+    .tabla2 td:nth-child(3) {
+        display: none;
+    }
+}
+
