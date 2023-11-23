@@ -267,7 +267,7 @@
       "observaciones":"entregable",
       "detalles":"Desarrollo de la parte teórica de la segunda prueba parcial. Se habilita el 23/11 a las 06:00.",
       "fecha":"Fecha Límite: Jueves, 23 de Noviembre, 23:59 hs.",
-      "checkbox": ""
+      "checkbox": "checked"
     },
     {
       "materia":"Programación de Sistemas Embebidos",
