@@ -191,11 +191,11 @@
     },
     {
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
-      "tipo": "EXAMEN FINAL",
+      "tipo": "PROYECTO FINAL",
       "nombre": "LABORATORIO 4",
-      "link_moodle": "",
-      "observaciones": "",
-      "detalles": "Examen final de la materia. Se evaluarán los temas pertenecientes al Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link_moodle": "https://github.com/ValentinBarco/UPSO-ML-BD/tree/main/Proyectos%20Finales",
+      "observaciones": "Metele que son pasteles",
+      "detalles": "Proyecto final de la materia. Consiste en realizar un laboratorio final y de temática libre.",
       "fecha": "A confirmar",
       "checkbox": ""
     },   
@@ -317,7 +317,7 @@
       "observaciones": "entregable",
       "detalles": "Debemos confirmar la finalización del Dashboard de Sistema de Facturación, en la última semana de clases para la presentación presencial del mismo.",
       "fecha": "Ultima semana de clases.",
-      "checkbox": ""
+      "checkbox": "checked"
     },
     {
       "materia": "Proyecto Informático",
@@ -372,8 +372,8 @@
     {
       "materia":"Sistemas Operativos",
       "tipo":"EXAMEN PARCIAL",
-      "nombre":"EXAMEN PARCIAL 1",
-      "link_moodle":"",
+      "nombre":"PARCIAL 1",
+      "link_moodle":"https://campusvirtual.upso.edu.ar/mod/quiz/view.php?id=390518",
       "observaciones":"entregable",
       "detalles":"Se requiere contestar con opciones de elección múltiple, acerca de los contenidos abordados hasta el momento.",
       "fecha":"Viernes, 17 de Noviembre.",
@@ -381,8 +381,18 @@
     },
     {
       "materia":"Sistemas Operativos",
+      "tipo":"RECUPERATORIO PARCIAL",
+      "nombre":"PARCIAL 1",
+      "link_moodle":"https://campusvirtual.upso.edu.ar/mod/quiz/view.php?id=390752",
+      "observaciones":"entregable",
+      "detalles":"Se requiere contestar con opciones de elección múltiple, Cierra: Martes, 28 Noviembre 2023, 12:00 AM.",
+      "fecha":"Lunes, 27 de noviembre de 2023, 9:00 AM",
+      "checkbox":"checked"
+    },
+    {
+      "materia":"Sistemas Operativos",
       "tipo":"EXAMEN PARCIAL",
-      "nombre":"EXAMEN PARCIAL 2",
+      "nombre":"PARCIAL 2",
       "link_moodle":"",
       "observaciones":"entregable",
       "detalles":"Se debe lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt.",
