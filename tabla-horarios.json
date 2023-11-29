@@ -92,11 +92,11 @@
     {
       "materia": "Aplicaciones Móviles y Cloud Computing",
       "tipo": "EXAMEN PARCIAL",
-      "nombre": "EXAMEN PARCIAL",
-      "link_moodle": "",
+      "nombre": "PARCIAL 1",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5713#section-11",
       "observaciones": "",
-      "detalles": "Lunes, 27 de Noviembre, 17:00 hs habrá noticias. Sed euismod, nisl quis tincidunt aliquam, nunc nisl aliquet nunc.",
-      "fecha": "Algún día de Noviembre/Diciembre, 2023.",
+      "detalles": "El examen consiste en un cuestionario MultipleChoice a traves del campus. El mismo tendra una disponibilidad de 7 días.",
+      "fecha": "Lunes, 4 de Diciembre, 2023.",
       "checkbox": ""
     },
     {
