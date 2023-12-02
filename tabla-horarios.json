@@ -386,7 +386,7 @@
       "link_moodle":"https://campusvirtual.upso.edu.ar/mod/quiz/view.php?id=390752",
       "observaciones":"entregable",
       "detalles":"Se requiere contestar con opciones de elección múltiple, Cierra: Martes, 28 Noviembre 2023, 12:00 AM.",
-      "fecha":"Lunes, 27 de noviembre de 2023, 9:00 AM",
+      "fecha":"Lunes, 27 de Noviembre de 2023, 9:00 AM",
       "checkbox":"checked"
     },
     {
@@ -394,9 +394,19 @@
       "tipo":"EXAMEN PARCIAL",
       "nombre":"PARCIAL 2",
       "link_moodle":"",
+      "observaciones":"toma agua",
+      "detalles":"Multiple Choice, temas: Virtual Machine, Ubuntu básico y Docker, Cierra: Sábado, 9 de Diciembre.",
+      "fecha":"Viernes, 8 de Diciembre",
+      "checkbox":""
+    },
+    {
+      "materia":"Sistemas Operativos",
+      "tipo":"PROYECTO FINAL",
+      "nombre":"TRABAJO FINAL",
+      "link_moodle":"",
       "observaciones":"entregable",
-      "detalles":"Se debe lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt.",
-      "fecha":"A confirmar",
+      "detalles":"El trabajo conciste en crear una imagen en Docker.",
+      "fecha":"Viernes, 22 de Diciembre",
       "checkbox":""
     }
   ]
