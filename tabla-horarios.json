@@ -93,7 +93,7 @@
       "materia": "Aplicaciones Móviles y Cloud Computing",
       "tipo": "EXAMEN PARCIAL",
       "nombre": "PARCIAL 1",
-      "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5713#section-11",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/mod/quiz/view.php?id=390599",
       "observaciones": "",
       "detalles": "El examen consiste en un cuestionario MultipleChoice a traves del campus. El mismo tendra una disponibilidad de 7 días.",
       "fecha": "Lunes, 4 de Diciembre, 2023.",
@@ -167,7 +167,7 @@
       "observaciones": "Entrega Recuperatorio de laboratorio: Análisis de Ventas Mensuales",
       "detalles": "Todos los alumnos con el laboratorio desaprobado deben realizar las correcciones recomendadas y volver a entregarlo.",
       "fecha": "Domingo, 3 de diciembre de 2023, 12:00 AM.",
-      "checkbox": ""
+      "checkbox": "checked"
     },
     {
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
@@ -177,7 +177,7 @@
       "observaciones": "Entrega Recuperatorio de laboratorio: Spotify",
       "detalles": "Todos los alumnos con el laboratorio desaprobado deben realizar las correcciones recomendadas y volver a entregarlo.",
       "fecha": "Domingo, 3 de diciembre de 2023, 12:00 AM.",
-      "checkbox": ""
+      "checkbox": "checked"
     },
     {
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
@@ -187,13 +187,13 @@
       "observaciones": "Entrega Recuperatorio de laboratorio: Zonas de peligro",
       "detalles": "Todos los alumnos con el laboratorio desaprobado deben realizar las correcciones recomendadas y volver a entregarlo.",
       "fecha": "Domingo, 3 de diciembre de 2023, 12:00 AM.",
-      "checkbox": ""
+      "checkbox": "checked"
     },
     {
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
       "tipo": "PROYECTO FINAL",
       "nombre": "LABORATORIO 4",
-      "link_moodle": "https://github.com/ValentinBarco/UPSO-ML-BD/tree/main/Proyectos%20Finales",
+      "link_moodle": "https://campusvirtual.upso.edu.ar/course/view.php?id=5762#section-18",
       "observaciones": "Metele que son pasteles",
       "detalles": "Proyecto final de la materia. Consiste en realizar un laboratorio final y de temática libre.",
       "fecha": "A confirmar",
@@ -327,7 +327,7 @@
       "observaciones": "entregable",
       "detalles": "Debemos presentar el proyecto informatico (Dashboard para Sistema de Facturación) y hacer su defensa mediante la explicación de su desarrollo, funcionamiento y rol de participantes.",
       "fecha": "4 y 5 de Diciembre, 2023.",
-      "checkbox": ""
+      "checkbox": "checked"
     },
     {
       "materia": "Sistemas Operativos",
