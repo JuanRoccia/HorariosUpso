@@ -95,7 +95,7 @@
       "nombre": "PARCIAL 1",
       "link_moodle": "https://campusvirtual.upso.edu.ar/mod/quiz/view.php?id=390599",
       "observaciones": "",
-      "detalles": "El examen consiste en un cuestionario MultipleChoice a traves del campus. El mismo tendra una disponibilidad de 7 días.",
+      "detalles": "El examen consiste en un cuestionario MultipleChoice a traves del campus. El mismo cierra el Sábado, 9 de diciembre de 2023, 21.00 horas.",
       "fecha": "Lunes, 4 de Diciembre, 2023.",
       "checkbox": ""
     },
@@ -176,7 +176,7 @@
       "link_moodle": "https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=390561",
       "observaciones": "Entrega Recuperatorio de laboratorio: Spotify",
       "detalles": "Todos los alumnos con el laboratorio desaprobado deben realizar las correcciones recomendadas y volver a entregarlo.",
-      "fecha": "Domingo, 3 de diciembre de 2023, 12:00 AM.",
+      "fecha": "Viernes, 8 Diciembre 2023, 12:00 AM.",
       "checkbox": "checked"
     },
     {
@@ -186,7 +186,7 @@
       "link_moodle": "https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=390562",
       "observaciones": "Entrega Recuperatorio de laboratorio: Zonas de peligro",
       "detalles": "Todos los alumnos con el laboratorio desaprobado deben realizar las correcciones recomendadas y volver a entregarlo.",
-      "fecha": "Domingo, 3 de diciembre de 2023, 12:00 AM.",
+      "fecha": "Viernes, 8 Diciembre 2023, 12:00 AM.",
       "checkbox": "checked"
     },
     {
@@ -277,7 +277,7 @@
       "observaciones":"entregable",
       "detalles":"Desarrollo y entrega de la parte práctica correspondiente a la segunda prueba parcial. Se habilita el 23/11 a las 06:00.",
       "fecha":"Fecha Límite: Domingo, 3 de diciembre de 2023, 13:59 hs",
-      "checkbox": ""
+      "checkbox": "checked"
     },
     {
       "materia":"Programación de Sistemas Embebidos",
@@ -286,7 +286,7 @@
       "link_moodle":"https://campusvirtual.upso.edu.ar/mod/assign/view.php?id=390269",
       "observaciones":"entregable",
       "detalles":"Los estudiantes deberán conformar grupos y seleccionar uno de los tres retos proporcionados. Deberán entregar: Informe (normas APA), Archivos respectivos y  Subir a YouTube un video.",
-      "fecha":"Fecha límite: Viernes, 8 de Diciembre de 2023, 23:59",
+      "fecha":"Fecha límite: Domingo, 10 de Diciembre de 2023, 15:00",
       "checkbox":""
     },
     {
