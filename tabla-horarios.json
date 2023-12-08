@@ -97,7 +97,7 @@
       "observaciones": "",
       "detalles": "El examen consiste en un cuestionario MultipleChoice a traves del campus. El mismo cierra el Sábado, 9 de diciembre de 2023, 21.00 horas.",
       "fecha": "Lunes, 4 de Diciembre, 2023.",
-      "checkbox": ""
+      "checkbox": "checked"
     },
     {
       "materia": "Elementos de Aprendizaje de Máquina y Big Data",
