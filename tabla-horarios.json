@@ -393,11 +393,11 @@
       "materia":"Sistemas Operativos",
       "tipo":"EXAMEN PARCIAL",
       "nombre":"PARCIAL 2",
-      "link_moodle":"",
+      "link_moodle":"https://campusvirtual.upso.edu.ar/mod/quiz/view.php?id=416384",
       "observaciones":"toma agua",
-      "detalles":"Multiple Choice, temas: Virtual Machine, Ubuntu básico y Docker, Cierra: Sábado, 9 de Diciembre.",
+      "detalles":"Multiple Choice, temas: Virtual Machine, Ubuntu básico y Docker, Cierra: Sábado, 9 de Diciembre 12:00.",
       "fecha":"Viernes, 8 de Diciembre",
-      "checkbox":""
+      "checkbox":"checked"
     },
     {
       "materia":"Sistemas Operativos",
